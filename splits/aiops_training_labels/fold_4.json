@@ -1,0 +1,608 @@
+[
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-20-cloudbed1:1647736751:cartservice",
+    "overlap_group": 2,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-20-cloudbed1:1647738546:shippingservice-1",
+    "overlap_group": 108,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-20-cloudbed1:1647741299:emailservice-0",
+    "overlap_group": 70,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-20-cloudbed1:1647747326:recommendationservice",
+    "overlap_group": 107,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器进程中止",
+    "incident_id": "2022-03-20-cloudbed1:1647756886:recommendationservice2-0",
+    "overlap_group": 66,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-20-cloudbed1:1647759640:paymentservice",
+    "overlap_group": 78,
+    "root_service": "paymentservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-20-cloudbed1:1647763803:shippingservice-1",
+    "overlap_group": 25,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-20-cloudbed1:1647765104:currencyservice-0",
+    "overlap_group": 103,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-20-cloudbed1:1647774333:frontend-2",
+    "overlap_group": 124,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-20-cloudbed1:1647782181:emailservice",
+    "overlap_group": 61,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-20-cloudbed1:1647788966:checkoutservice-2",
+    "overlap_group": 75,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-20-cloudbed1:1647790210:productcatalogservice",
+    "overlap_group": 115,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器写io负载",
+    "incident_id": "2022-03-20-cloudbed2:1647736507:recommendationservice2-0",
+    "overlap_group": 11,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-20-cloudbed2:1647739015:cartservice2-0",
+    "overlap_group": 22,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-20-cloudbed2:1647740269:productcatalogservice",
+    "overlap_group": 41,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-20-cloudbed2:1647743634:currencyservice-0",
+    "overlap_group": 34,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-20-cloudbed2:1647748348:adservice-1",
+    "overlap_group": 69,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-20-cloudbed2:1647749225:currencyservice",
+    "overlap_group": 76,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器写io负载",
+    "incident_id": "2022-03-20-cloudbed2:1647757979:emailservice-1",
+    "overlap_group": 68,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-20-cloudbed2:1647759731:checkoutservice-0",
+    "overlap_group": 53,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-20-cloudbed2:1647761261:emailservice",
+    "overlap_group": 62,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-20-cloudbed2:1647781132:productcatalogservice",
+    "overlap_group": 125,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-20-cloudbed3:1647736122:cartservice",
+    "overlap_group": 21,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-20-cloudbed3:1647740664:emailservice-1",
+    "overlap_group": 5,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-20-cloudbed3:1647742414:adservice-1",
+    "overlap_group": 120,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-20-cloudbed3:1647745475:cartservice",
+    "overlap_group": 4,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-20-cloudbed3:1647753000:productcatalogservice-0",
+    "overlap_group": 24,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-20-cloudbed3:1647754192:cartservice2-0",
+    "overlap_group": 3,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-20-cloudbed3:1647765122:cartservice",
+    "overlap_group": 44,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-20-cloudbed3:1647770050:shippingservice",
+    "overlap_group": 57,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-20-cloudbed3:1647777271:currencyservice-1",
+    "overlap_group": 31,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-20-cloudbed3:1647783528:adservice-1",
+    "overlap_group": 9,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-21-cloudbed1:1647794245:cartservice",
+    "overlap_group": 14,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-21-cloudbed1:1647808364:cartservice",
+    "overlap_group": 51,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed1:1647816058:currencyservice-0",
+    "overlap_group": 45,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-21-cloudbed1:1647818816:adservice2-0",
+    "overlap_group": 87,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed1:1647820502:productcatalogservice-0",
+    "overlap_group": 46,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed1:1647821967:shippingservice-1",
+    "overlap_group": 65,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-21-cloudbed1:1647825990:checkoutservice",
+    "overlap_group": 38,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-21-cloudbed1:1647827637:shippingservice",
+    "overlap_group": 60,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed1:1647832658:shippingservice",
+    "overlap_group": 86,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-21-cloudbed1:1647834030:frontend",
+    "overlap_group": 121,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed1:1647835475:recommendationservice-2",
+    "overlap_group": 19,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed1:1647836321:productcatalogservice",
+    "overlap_group": 83,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed1:1647838805:paymentservice",
+    "overlap_group": 48,
+    "root_service": "paymentservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-21-cloudbed1:1647842901:emailservice",
+    "overlap_group": 85,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器写io负载",
+    "incident_id": "2022-03-21-cloudbed1:1647843413:emailservice",
+    "overlap_group": 116,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed1:1647846519:frontend2-0",
+    "overlap_group": 94,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed1:1647847538:emailservice-1",
+    "overlap_group": 89,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed1:1647848731:cartservice",
+    "overlap_group": 102,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-21-cloudbed2:1647793099:shippingservice-0",
+    "overlap_group": 12,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器进程中止",
+    "incident_id": "2022-03-21-cloudbed2:1647797643:adservice-0",
+    "overlap_group": 30,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed2:1647801135:cartservice",
+    "overlap_group": 72,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器进程中止",
+    "incident_id": "2022-03-21-cloudbed2:1647806025:recommendationservice-1",
+    "overlap_group": 112,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed2:1647808427:cartservice",
+    "overlap_group": 43,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器写io负载",
+    "incident_id": "2022-03-21-cloudbed2:1647811370:productcatalogservice-0",
+    "overlap_group": 16,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed2:1647821872:productcatalogservice",
+    "overlap_group": 28,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed2:1647824881:recommendationservice-1",
+    "overlap_group": 20,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-21-cloudbed2:1647829767:frontend",
+    "overlap_group": 105,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-21-cloudbed2:1647831156:adservice",
+    "overlap_group": 99,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-21-cloudbed2:1647839856:shippingservice-2",
+    "overlap_group": 59,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-21-cloudbed2:1647840981:recommendationservice-0",
+    "overlap_group": 71,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed2:1647841753:frontend-2",
+    "overlap_group": 84,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed2:1647843588:productcatalogservice-1",
+    "overlap_group": 15,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed2:1647845941:frontend",
+    "overlap_group": 33,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed2:1647853188:adservice-2",
+    "overlap_group": 6,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed2:1647854648:productcatalogservice-1",
+    "overlap_group": 29,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed2:1647857282:checkoutservice",
+    "overlap_group": 117,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-21-cloudbed2:1647861002:shippingservice",
+    "overlap_group": 122,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed2:1647862375:paymentservice",
+    "overlap_group": 67,
+    "root_service": "paymentservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed2:1647864210:checkoutservice-2",
+    "overlap_group": 119,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed2:1647876814:checkoutservice2-0",
+    "overlap_group": 10,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed3:1647802167:frontend",
+    "overlap_group": 113,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器网络丢包",
+    "incident_id": "2022-03-21-cloudbed3:1647810366:productcatalogservice-0",
+    "overlap_group": 18,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed3:1647811973:currencyservice",
+    "overlap_group": 74,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed3:1647818719:frontend-1",
+    "overlap_group": 35,
+    "root_service": "frontend"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed3:1647829513:cartservice",
+    "overlap_group": 81,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-21-cloudbed3:1647831451:cartservice-0",
+    "overlap_group": 92,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-21-cloudbed3:1647832942:cartservice2-0",
+    "overlap_group": 47,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器进程中止",
+    "incident_id": "2022-03-21-cloudbed3:1647840355:shippingservice-1",
+    "overlap_group": 64,
+    "root_service": "shippingservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-21-cloudbed3:1647841770:emailservice",
+    "overlap_group": 111,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-21-cloudbed3:1647844428:emailservice",
+    "overlap_group": 52,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器进程中止",
+    "incident_id": "2022-03-21-cloudbed3:1647857740:checkoutservice",
+    "overlap_group": 106,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器进程中止",
+    "incident_id": "2022-03-21-cloudbed3:1647861911:currencyservice",
+    "overlap_group": 37,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed3:1647869629:checkoutservice2-0",
+    "overlap_group": 101,
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "k8s容器cpu负载",
+    "incident_id": "2022-03-21-cloudbed3:1647870781:currencyservice-2",
+    "overlap_group": 79,
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-21-cloudbed3:1647873778:recommendationservice-2",
+    "overlap_group": 80,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-24-cloudbed3:1648073731:adservice-0",
+    "overlap_group": 1,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器写io负载",
+    "incident_id": "2022-03-24-cloudbed3:1648076281:emailservice-1",
+    "overlap_group": 40,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器网络延迟",
+    "incident_id": "2022-03-24-cloudbed3:1648083024:recommendationservice",
+    "overlap_group": 8,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-24-cloudbed3:1648085160:emailservice",
+    "overlap_group": 55,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-24-cloudbed3:1648090905:adservice-1",
+    "overlap_group": 0,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-24-cloudbed3:1648115404:productcatalogservice",
+    "overlap_group": 13,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-24-cloudbed3:1648117787:recommendationservice-0",
+    "overlap_group": 63,
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-24-cloudbed3:1648118890:productcatalogservice-1",
+    "overlap_group": 88,
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包重复发送",
+    "incident_id": "2022-03-24-cloudbed3:1648121600:cartservice",
+    "overlap_group": 97,
+    "root_service": "cartservice"
+  },
+  {
+    "fault_type": "k8s容器读io负载",
+    "incident_id": "2022-03-24-cloudbed3:1648124782:emailservice-1",
+    "overlap_group": 49,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-24-cloudbed3:1648127797:adservice2-0",
+    "overlap_group": 114,
+    "root_service": "adservice"
+  },
+  {
+    "fault_type": "k8s容器写io负载",
+    "incident_id": "2022-03-24-cloudbed3:1648130260:paymentservice-1",
+    "overlap_group": 91,
+    "root_service": "paymentservice"
+  },
+  {
+    "fault_type": "k8s容器网络资源包损坏",
+    "incident_id": "2022-03-24-cloudbed3:1648133937:emailservice-1",
+    "overlap_group": 27,
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "k8s容器内存负载",
+    "incident_id": "2022-03-24-cloudbed3:1648135362:checkoutservice",
+    "overlap_group": 95,
+    "root_service": "checkoutservice"
+  }
+]

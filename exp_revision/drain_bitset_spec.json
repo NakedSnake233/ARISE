@@ -1,0 +1,10 @@
+{
+  "interpreter": "cache/exp_runtime/venv/bin/python",
+  "environment": "warm unchanged Python3.10.16 / Drain3 0.9.11 / NumPy1.26.4",
+  "dependencies_added": [],
+  "source": "exp_revision/drain_bitset.py",
+  "scope": "exact default unlimited Drain candidate matching and no-eviction prefix append",
+  "unchanged": ["similarity threshold", "literal/wildcard rules", "parameter-count tie", "first-candidate tie", "tree path", "template updates", "message corpus/order", "features"],
+  "witness_seed": 2027,
+  "ready_requires": "synthetic equality and actual whole first SS training event equivalence; fresh agent executes local_drain_bitset.md"
+}

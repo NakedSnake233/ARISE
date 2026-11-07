@@ -1,0 +1,1071 @@
+{
+  "common_evaluator": {
+    "bootstrap": {
+      "draws": 10000,
+      "interval": "percentile 95%; conditional on fixed local seeds/API runs",
+      "seed": 2027,
+      "unit": "unique incident"
+    },
+    "fallback": "equal mean of row-normalized label-independent metric, log, and trace anomaly magnitudes; stable service-order ties",
+    "invalid_incidents_remain_in_denominator": true,
+    "metrics": [
+      "PR@1",
+      "PR@3",
+      "PR@5",
+      "MAP@3",
+      "MAP@5"
+    ],
+    "no_test_label_access": true,
+    "single_ground_truth": true,
+    "test_result_reader": "scripts/care/fse2027_baseline_common.py",
+    "ties": "stable ascending metadata service order",
+    "validation_selection": [
+      "PR@1",
+      "MAP@5",
+      "PR@3",
+      "lexical configuration JSON"
+    ]
+  },
+  "datasets": {
+    "aiops2022": {
+      "counts": {
+        "adapter_fit": 81,
+        "adapter_validation": 21,
+        "outer_train": 102,
+        "test": 26
+      },
+      "dataset": "aiops2022",
+      "features_sha256": "c2d8f5af60fd77016d99ba1b3d81b960a6329c864539b06665e345f33bdd1d9c",
+      "fit_incident_ids": [
+        "2022-03-20-cloudbed1:1647738546:shippingservice-1",
+        "2022-03-20-cloudbed1:1647746396:shippingservice-1",
+        "2022-03-20-cloudbed1:1647747326:recommendationservice",
+        "2022-03-20-cloudbed1:1647756886:recommendationservice2-0",
+        "2022-03-20-cloudbed1:1647757395:shippingservice",
+        "2022-03-20-cloudbed1:1647765104:currencyservice-0",
+        "2022-03-20-cloudbed1:1647774333:frontend-2",
+        "2022-03-20-cloudbed1:1647790210:productcatalogservice",
+        "2022-03-20-cloudbed2:1647740269:productcatalogservice",
+        "2022-03-20-cloudbed2:1647748348:adservice-1",
+        "2022-03-20-cloudbed2:1647749225:currencyservice",
+        "2022-03-20-cloudbed2:1647757979:emailservice-1",
+        "2022-03-20-cloudbed2:1647761261:emailservice",
+        "2022-03-20-cloudbed2:1647785991:recommendationservice",
+        "2022-03-20-cloudbed3:1647742414:adservice-1",
+        "2022-03-20-cloudbed3:1647755812:checkoutservice",
+        "2022-03-20-cloudbed3:1647765122:cartservice",
+        "2022-03-20-cloudbed3:1647770050:shippingservice",
+        "2022-03-20-cloudbed3:1647777271:currencyservice-1",
+        "2022-03-20-cloudbed3:1647779497:frontend-0",
+        "2022-03-21-cloudbed1:1647796830:productcatalogservice-2",
+        "2022-03-21-cloudbed1:1647808364:cartservice",
+        "2022-03-21-cloudbed1:1647816058:currencyservice-0",
+        "2022-03-21-cloudbed1:1647818816:adservice2-0",
+        "2022-03-21-cloudbed1:1647820502:productcatalogservice-0",
+        "2022-03-21-cloudbed1:1647821967:shippingservice-1",
+        "2022-03-21-cloudbed1:1647824785:productcatalogservice",
+        "2022-03-21-cloudbed1:1647825990:checkoutservice",
+        "2022-03-21-cloudbed1:1647827637:shippingservice",
+        "2022-03-21-cloudbed1:1647832658:shippingservice",
+        "2022-03-21-cloudbed1:1647834030:frontend",
+        "2022-03-21-cloudbed1:1647836321:productcatalogservice",
+        "2022-03-21-cloudbed1:1647841146:currencyservice",
+        "2022-03-21-cloudbed1:1647842901:emailservice",
+        "2022-03-21-cloudbed1:1647843413:emailservice",
+        "2022-03-21-cloudbed1:1647847538:emailservice-1",
+        "2022-03-21-cloudbed1:1647848731:cartservice",
+        "2022-03-21-cloudbed2:1647797643:adservice-0",
+        "2022-03-21-cloudbed2:1647808427:cartservice",
+        "2022-03-21-cloudbed2:1647816272:recommendationservice-1",
+        "2022-03-21-cloudbed2:1647831156:adservice",
+        "2022-03-21-cloudbed2:1647840981:recommendationservice-0",
+        "2022-03-21-cloudbed2:1647841753:frontend-2",
+        "2022-03-21-cloudbed2:1647850089:adservice-0",
+        "2022-03-21-cloudbed2:1647854648:productcatalogservice-1",
+        "2022-03-21-cloudbed2:1647857282:checkoutservice",
+        "2022-03-21-cloudbed2:1647858555:adservice",
+        "2022-03-21-cloudbed2:1647861002:shippingservice",
+        "2022-03-21-cloudbed2:1647862375:paymentservice",
+        "2022-03-21-cloudbed2:1647864210:checkoutservice-2",
+        "2022-03-21-cloudbed2:1647866421:emailservice-0",
+        "2022-03-21-cloudbed3:1647802167:frontend",
+        "2022-03-21-cloudbed3:1647807349:shippingservice",
+        "2022-03-21-cloudbed3:1647811973:currencyservice",
+        "2022-03-21-cloudbed3:1647813698:shippingservice2-0",
+        "2022-03-21-cloudbed3:1647816945:currencyservice",
+        "2022-03-21-cloudbed3:1647817324:productcatalogservice",
+        "2022-03-21-cloudbed3:1647823316:checkoutservice-1",
+        "2022-03-21-cloudbed3:1647831451:cartservice-0",
+        "2022-03-21-cloudbed3:1647832942:cartservice2-0",
+        "2022-03-21-cloudbed3:1647841770:emailservice",
+        "2022-03-21-cloudbed3:1647844428:emailservice",
+        "2022-03-21-cloudbed3:1647857740:checkoutservice",
+        "2022-03-21-cloudbed3:1647861911:currencyservice",
+        "2022-03-21-cloudbed3:1647869629:checkoutservice2-0",
+        "2022-03-21-cloudbed3:1647870781:currencyservice-2",
+        "2022-03-21-cloudbed3:1647873778:recommendationservice-2",
+        "2022-03-24-cloudbed3:1648064773:productcatalogservice-1",
+        "2022-03-24-cloudbed3:1648076281:emailservice-1",
+        "2022-03-24-cloudbed3:1648085160:emailservice",
+        "2022-03-24-cloudbed3:1648087989:recommendationservice-1",
+        "2022-03-24-cloudbed3:1648093711:recommendationservice",
+        "2022-03-24-cloudbed3:1648111283:recommendationservice",
+        "2022-03-24-cloudbed3:1648117787:recommendationservice-0",
+        "2022-03-24-cloudbed3:1648118890:productcatalogservice-1",
+        "2022-03-24-cloudbed3:1648121600:cartservice",
+        "2022-03-24-cloudbed3:1648124782:emailservice-1",
+        "2022-03-24-cloudbed3:1648130260:paymentservice-1",
+        "2022-03-24-cloudbed3:1648131758:currencyservice-1",
+        "2022-03-24-cloudbed3:1648133937:emailservice-1",
+        "2022-03-24-cloudbed3:1648135362:checkoutservice"
+      ],
+      "incidents_sha256": "6707dc77d92cd07c757ca65bff4ca45165f5b6de76ac36252f4ff5f26149a849",
+      "metadata_sha256": "74d1ec820a1ec74b7ed4313be40e4d9877cdf8815851a97456e9f5fadbd56607",
+      "path": "data/care/aiops2022-paper128-prepared",
+      "services": [
+        "adservice",
+        "cartservice",
+        "checkoutservice",
+        "currencyservice",
+        "emailservice",
+        "frontend",
+        "paymentservice",
+        "productcatalogservice",
+        "recommendationservice",
+        "shippingservice"
+      ],
+      "split_bin": 3,
+      "test_incident_ids": [
+        "2022-03-20-cloudbed1:1647736751:cartservice",
+        "2022-03-20-cloudbed1:1647763803:shippingservice-1",
+        "2022-03-20-cloudbed2:1647736507:recommendationservice2-0",
+        "2022-03-20-cloudbed2:1647739015:cartservice2-0",
+        "2022-03-20-cloudbed3:1647736122:cartservice",
+        "2022-03-20-cloudbed3:1647740664:emailservice-1",
+        "2022-03-20-cloudbed3:1647745475:cartservice",
+        "2022-03-20-cloudbed3:1647753000:productcatalogservice-0",
+        "2022-03-20-cloudbed3:1647754192:cartservice2-0",
+        "2022-03-20-cloudbed3:1647783528:adservice-1",
+        "2022-03-21-cloudbed1:1647794245:cartservice",
+        "2022-03-21-cloudbed1:1647835475:recommendationservice-2",
+        "2022-03-21-cloudbed2:1647793099:shippingservice-0",
+        "2022-03-21-cloudbed2:1647811370:productcatalogservice-0",
+        "2022-03-21-cloudbed2:1647824881:recommendationservice-1",
+        "2022-03-21-cloudbed2:1647843588:productcatalogservice-1",
+        "2022-03-21-cloudbed2:1647847185:paymentservice",
+        "2022-03-21-cloudbed2:1647853188:adservice-2",
+        "2022-03-21-cloudbed2:1647876814:checkoutservice2-0",
+        "2022-03-21-cloudbed3:1647810366:productcatalogservice-0",
+        "2022-03-21-cloudbed3:1647820275:cartservice",
+        "2022-03-24-cloudbed3:1648073731:adservice-0",
+        "2022-03-24-cloudbed3:1648083024:recommendationservice",
+        "2022-03-24-cloudbed3:1648090905:adservice-1",
+        "2022-03-24-cloudbed3:1648115404:productcatalogservice",
+        "2022-03-24-cloudbed3:1648120654:recommendationservice"
+      ],
+      "tie_break": "stable ascending metadata service order",
+      "validation_incident_ids": [
+        "2022-03-20-cloudbed1:1647741299:emailservice-0",
+        "2022-03-20-cloudbed1:1647759640:paymentservice",
+        "2022-03-20-cloudbed1:1647782181:emailservice",
+        "2022-03-20-cloudbed1:1647788966:checkoutservice-2",
+        "2022-03-20-cloudbed2:1647743634:currencyservice-0",
+        "2022-03-20-cloudbed2:1647759731:checkoutservice-0",
+        "2022-03-20-cloudbed2:1647781132:productcatalogservice",
+        "2022-03-21-cloudbed1:1647838805:paymentservice",
+        "2022-03-21-cloudbed1:1647846519:frontend2-0",
+        "2022-03-21-cloudbed2:1647801135:cartservice",
+        "2022-03-21-cloudbed2:1647806025:recommendationservice-1",
+        "2022-03-21-cloudbed2:1647821872:productcatalogservice",
+        "2022-03-21-cloudbed2:1647829767:frontend",
+        "2022-03-21-cloudbed2:1647839856:shippingservice-2",
+        "2022-03-21-cloudbed2:1647845941:frontend",
+        "2022-03-21-cloudbed3:1647818719:frontend-1",
+        "2022-03-21-cloudbed3:1647829513:cartservice",
+        "2022-03-21-cloudbed3:1647840355:shippingservice-1",
+        "2022-03-21-cloudbed3:1647863356:currencyservice-2",
+        "2022-03-24-cloudbed3:1648114196:frontend-2",
+        "2022-03-24-cloudbed3:1648127797:adservice2-0"
+      ]
+    },
+    "trainticket": {
+      "counts": {
+        "adapter_fit": 108,
+        "adapter_validation": 12,
+        "outer_train": 108,
+        "test": 30
+      },
+      "dataset": "trainticket",
+      "features_sha256": "c64a705d7739e52cca6fefe56086ff94c91f85d0a86693546616806f46441928",
+      "fit_incident_ids": [
+        "care-basic-cpu-load-0",
+        "care-basic-cpu-load-1",
+        "care-basic-disk-io-load-0",
+        "care-basic-disk-io-load-1",
+        "care-basic-memory-ramp-0",
+        "care-basic-memory-ramp-2",
+        "care-basic-network-delay-0",
+        "care-basic-network-delay-1",
+        "care-basic-network-delay-2",
+        "care-basic-packet-loss-1",
+        "care-basic-packet-loss-2",
+        "care-order-cpu-load-0",
+        "care-order-cpu-load-2",
+        "care-order-disk-io-load-0",
+        "care-order-disk-io-load-1",
+        "care-order-disk-io-load-2",
+        "care-order-memory-ramp-0",
+        "care-order-memory-ramp-1",
+        "care-order-memory-ramp-2",
+        "care-order-network-delay-2",
+        "care-order-packet-loss-1",
+        "care-price-cpu-load-2",
+        "care-price-disk-io-load-0",
+        "care-price-disk-io-load-1",
+        "care-price-memory-ramp-0",
+        "care-price-memory-ramp-2",
+        "care-price-network-delay-0",
+        "care-price-packet-loss-1",
+        "care-price-packet-loss-2",
+        "care-route-cpu-load-0",
+        "care-route-cpu-load-2",
+        "care-route-disk-io-load-0",
+        "care-route-disk-io-load-1",
+        "care-route-disk-io-load-2",
+        "care-route-memory-ramp-0",
+        "care-route-memory-ramp-1",
+        "care-route-memory-ramp-2",
+        "care-route-network-delay-0",
+        "care-route-network-delay-1",
+        "care-route-network-delay-2",
+        "care-route-packet-loss-0",
+        "care-route-packet-loss-1",
+        "care-route-packet-loss-2",
+        "care-seat-cpu-load-2",
+        "care-seat-disk-io-load-0",
+        "care-seat-disk-io-load-1",
+        "care-seat-memory-ramp-0",
+        "care-seat-memory-ramp-1",
+        "care-seat-network-delay-0",
+        "care-seat-network-delay-1",
+        "care-seat-network-delay-2",
+        "care-seat-packet-loss-0",
+        "care-seat-packet-loss-1",
+        "care-station-cpu-load-2",
+        "care-station-disk-io-load-0",
+        "care-station-disk-io-load-2",
+        "care-station-memory-ramp-0",
+        "care-station-memory-ramp-1",
+        "care-station-memory-ramp-2",
+        "care-station-network-delay-0",
+        "care-station-network-delay-1",
+        "care-station-packet-loss-0",
+        "care-station-packet-loss-1",
+        "care-ticketinfo-cpu-load-1",
+        "care-ticketinfo-cpu-load-2",
+        "care-ticketinfo-disk-io-load-0",
+        "care-ticketinfo-disk-io-load-2",
+        "care-ticketinfo-memory-ramp-0",
+        "care-ticketinfo-memory-ramp-2",
+        "care-ticketinfo-network-delay-0",
+        "care-ticketinfo-network-delay-2",
+        "care-ticketinfo-packet-loss-2",
+        "care-train-cpu-load-0",
+        "care-train-cpu-load-2",
+        "care-train-disk-io-load-0",
+        "care-train-disk-io-load-1",
+        "care-train-memory-ramp-1",
+        "care-train-memory-ramp-2",
+        "care-train-network-delay-0",
+        "care-train-network-delay-1",
+        "care-train-network-delay-2",
+        "care-train-packet-loss-0",
+        "care-train-packet-loss-1",
+        "care-train-packet-loss-2",
+        "care-travel-cpu-load-0",
+        "care-travel-cpu-load-1",
+        "care-travel-cpu-load-2",
+        "care-travel-disk-io-load-0",
+        "care-travel-disk-io-load-1",
+        "care-travel-disk-io-load-2",
+        "care-travel-memory-ramp-0",
+        "care-travel-memory-ramp-1",
+        "care-travel-network-delay-0",
+        "care-travel-network-delay-1",
+        "care-travel-network-delay-2",
+        "care-travel-packet-loss-0",
+        "care-travel-packet-loss-1",
+        "care-travel2-cpu-load-0",
+        "care-travel2-cpu-load-1",
+        "care-travel2-disk-io-load-0",
+        "care-travel2-disk-io-load-1",
+        "care-travel2-memory-ramp-0",
+        "care-travel2-memory-ramp-1",
+        "care-travel2-network-delay-0",
+        "care-travel2-network-delay-1",
+        "care-travel2-network-delay-2",
+        "care-travel2-packet-loss-0",
+        "care-travel2-packet-loss-1"
+      ],
+      "incidents_sha256": "a16a01cad5933db1234143069936cf9c34e4dd33cdeae2215a4a33e3936e40d7",
+      "metadata_sha256": "abae77ccdb6cefc2a34a9dba61e24739a83a0ffbc7a3533c07400581fd8bf7a3",
+      "path": "data/care/trainticket-prepared",
+      "services": [
+        "ts-admin-basic-info-service",
+        "ts-admin-order-service",
+        "ts-admin-route-service",
+        "ts-admin-travel-service",
+        "ts-admin-user-service",
+        "ts-assurance-service",
+        "ts-auth-service",
+        "ts-basic-service",
+        "ts-cancel-service",
+        "ts-config-service",
+        "ts-consign-price-service",
+        "ts-consign-service",
+        "ts-contacts-service",
+        "ts-execute-service",
+        "ts-food-map-service",
+        "ts-food-service",
+        "ts-inside-payment-service",
+        "ts-news-service",
+        "ts-notification-service",
+        "ts-order-other-service",
+        "ts-order-service",
+        "ts-payment-service",
+        "ts-preserve-other-service",
+        "ts-preserve-service",
+        "ts-price-service",
+        "ts-rebook-service",
+        "ts-route-plan-service",
+        "ts-route-service",
+        "ts-seat-service",
+        "ts-security-service",
+        "ts-station-service",
+        "ts-ticket-office-service",
+        "ts-ticketinfo-service",
+        "ts-train-service",
+        "ts-travel-plan-service",
+        "ts-travel-service",
+        "ts-travel2-service",
+        "ts-ui-dashboard",
+        "ts-user-service",
+        "ts-verification-code-service",
+        "ts-voucher-service"
+      ],
+      "split_bin": 12,
+      "test_incident_ids": [
+        "care-basic-disk-io-load-2",
+        "care-basic-memory-ramp-1",
+        "care-basic-packet-loss-0",
+        "care-order-cpu-load-1",
+        "care-order-network-delay-1",
+        "care-order-packet-loss-0",
+        "care-order-packet-loss-2",
+        "care-price-cpu-load-0",
+        "care-price-disk-io-load-2",
+        "care-price-memory-ramp-1",
+        "care-price-network-delay-2",
+        "care-price-packet-loss-0",
+        "care-route-cpu-load-1",
+        "care-seat-cpu-load-0",
+        "care-seat-disk-io-load-2",
+        "care-seat-packet-loss-2",
+        "care-station-cpu-load-0",
+        "care-station-network-delay-2",
+        "care-station-packet-loss-2",
+        "care-ticketinfo-cpu-load-0",
+        "care-ticketinfo-disk-io-load-1",
+        "care-ticketinfo-memory-ramp-1",
+        "care-ticketinfo-network-delay-1",
+        "care-ticketinfo-packet-loss-0",
+        "care-ticketinfo-packet-loss-1",
+        "care-train-memory-ramp-0",
+        "care-travel-memory-ramp-2",
+        "care-travel2-disk-io-load-2",
+        "care-travel2-memory-ramp-2",
+        "care-travel2-packet-loss-2"
+      ],
+      "tie_break": "stable ascending metadata service order",
+      "validation_incident_ids": [
+        "care-basic-cpu-load-2",
+        "care-order-network-delay-0",
+        "care-price-cpu-load-1",
+        "care-price-network-delay-1",
+        "care-seat-cpu-load-1",
+        "care-seat-memory-ramp-2",
+        "care-station-cpu-load-1",
+        "care-station-disk-io-load-1",
+        "care-train-cpu-load-1",
+        "care-train-disk-io-load-2",
+        "care-travel-packet-loss-2",
+        "care-travel2-cpu-load-2"
+      ]
+    }
+  },
+  "evidence_boundary": {
+    "ordering_uncertain_when_paired_bootstrap_crosses_zero": true,
+    "practically_notable_gap_absolute": 0.05,
+    "prohibited_claims": [
+      "confirmatory significance",
+      "out-of-sample generalization",
+      "superiority",
+      "state of the art"
+    ],
+    "status": "post-hoc exploratory"
+  },
+  "frozen_at_utc": "2026-09-26T09:54:24.302453+00:00",
+  "integrity_checks_required": [
+    "shape",
+    "finite scores",
+    "stable ties",
+    "label blindness",
+    "degenerate all-zero input",
+    "empty graph",
+    "empty retrieval",
+    "invalid LLM JSON",
+    "unknown LLM service",
+    "timeout fallback",
+    "upstream bundled example when executable",
+    "no test tuning",
+    "complete denominator"
+  ],
+  "llm_protocol": {
+    "access_date_utc": "2026-09-26",
+    "api_route": "/chat/completions",
+    "best_response_selection": false,
+    "cache_scope": "within a run for crash recovery; never reused across complete runs",
+    "complete_runs": 3,
+    "concurrency": 8,
+    "credentials": "read at request time from existing config; never serialized",
+    "endpoint": "https://api.gpt.ge/v1",
+    "fallback": "common label-independent anomaly ranking included in the prompt",
+    "parser": "first complete JSON object; validate keys, known distinct services, and complete with label-independent fallback order",
+    "pricing": null,
+    "prompt_file": "scripts/care/fse2027_llm_prompts.json",
+    "prompt_sha256": "f7e4185fc9f72584342645c790e3aee39c9a3633809d5f90089b32beb2bb86a6",
+    "request_seed_each_run": 2027,
+    "requested_model": "gpt-5.6-luna",
+    "retries_after_initial_attempt": 3,
+    "retry_backoff_seconds": [
+      1,
+      2,
+      4
+    ],
+    "run_indices": [
+      0,
+      1,
+      2
+    ],
+    "smoke_artifact": "artifacts/care/fse2027-baselines/protocol/llm-smoke.json",
+    "smoke_returned_model": "gpt-5.6-luna-2026-07-09",
+    "smoke_sha256": "879a561c3372bf985bef5e9289920c2373b2d4cbd3082b9388ba023ca725ddee",
+    "telemetry_package": "metadata-order services; row-normalized modality anomaly/persistence/onset summaries; observed directed dependency edges; training-only nearest history; no labels, test fault types, or result-derived hints",
+    "temperature": 0,
+    "timeout_seconds": 60,
+    "top_p": 1
+  },
+  "methods": {
+    "CARE": {
+      "adaptation": "Frozen five-seed evidence-model configuration from the review-response experiment; no LLM call on this path.",
+      "execution": {
+        "required_complete_runs": 5,
+        "result_seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "selection_seed": 2027
+      },
+      "harmonized_input": "same",
+      "harmonized_output": "candidate-service score vector",
+      "implementation_class": "project-native",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "log",
+        "trace",
+        "graph",
+        "history"
+      ],
+      "native_input": "metric/log/trace tensors, observed graph, training history, and incident labels for fit only",
+      "native_output": "service ranking",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": null,
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "selection": "already frozen in artifacts/care/review-response-v1/config.json"
+      }
+    },
+    "CARE+GPT": {
+      "adaptation": "Optional one-call proposal path; reported separately from the zero-call CARE row and never substituted according to outcome.",
+      "execution": {
+        "best_response_selection": false,
+        "cache_scope": "within a run for crash recovery; never reused across complete runs",
+        "complete_runs": 3,
+        "concurrency": 8,
+        "request_seed_each_run": 2027,
+        "retries_after_initial_attempt": 3,
+        "retry_backoff_seconds": [
+          1,
+          2,
+          4
+        ],
+        "run_indices": [
+          0,
+          1,
+          2
+        ],
+        "temperature": 0,
+        "timeout_seconds": 60,
+        "top_p": 1
+      },
+      "harmonized_input": "same; gpt-5.6-luna proposes one evidence-cited reordering subject to the frozen deterministic acceptance gate",
+      "harmonized_output": "candidate-service score vector plus audit trail",
+      "implementation_class": "project-native",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "log",
+        "trace",
+        "graph",
+        "history",
+        "llm"
+      ],
+      "native_input": "CARE base candidates plus retrieved evidence and common telemetry",
+      "native_output": "service ranking and cited evidence records",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": null,
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "maximum_calls_per_incident": 1,
+        "maximum_output_tokens": 450,
+        "prompt_file": "scripts/care/fse2027_llm_prompts.json",
+        "prompt_sha256": "f7e4185fc9f72584342645c790e3aee39c9a3633809d5f90089b32beb2bb86a6",
+        "selection": "none; exact frozen prompt and gate"
+      }
+    },
+    "Eadro": {
+      "adaptation": "Retains modality encoders, graph attention, global pooling, and service localization; omits the separate anomaly detector and replaces unavailable source preprocessing. Source naming defects are corrected in the adapter.",
+      "execution": {
+        "required_complete_runs": 5,
+        "result_seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "selection_seed": 2027
+      },
+      "harmonized_input": "frozen metric/log/trace tensors and observed service graph with incident labels from fit only",
+      "harmonized_output": "root-service probability vector",
+      "implementation_class": "source-adapted",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "log",
+        "trace",
+        "graph"
+      ],
+      "native_input": "metric/trace time series, log events, and service dependency graph for joint anomaly detection and localization",
+      "native_output": "joint anomaly decision and root-service logits",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": {
+        "archive_sha256": "258759adb98e111cdd2a6bd05f5873e7fb05e252d899ca9c7bc17e1ff0f25d4b",
+        "downloaded_archive": "third_party/fse2027_baselines/downloads/eadro.tar.gz",
+        "license": "no explicit license in snapshot",
+        "note": "source inspected but not redistributed in the anonymous package",
+        "snapshot_file_count": 9,
+        "url": "https://github.com/BEbillionaireUSD/Eadro"
+      },
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "attention_heads": [
+          4
+        ],
+        "batch_size": [
+          16
+        ],
+        "dropout": [
+          0.2,
+          0.4
+        ],
+        "hidden_dim": [
+          32
+        ],
+        "learning_rate": [
+          0.001,
+          0.003
+        ],
+        "max_epochs": [
+          120
+        ],
+        "patience": [
+          15
+        ],
+        "weight_decay": [
+          0.0001
+        ]
+      }
+    },
+    "LogFaultFlagger": {
+      "adaptation": "Uses a class-balanced multinomial logistic service classifier because the original prediction target and test-log granularity are unavailable; this is not the native tool.",
+      "execution": {
+        "result_runs": 1,
+        "selection_seed": 2027
+      },
+      "harmonized_input": "training-only service log descriptors and incident root-service labels",
+      "harmonized_output": "service-class probability vector",
+      "implementation_class": "paper-derived",
+      "material_adapter": true,
+      "modalities": [
+        "log"
+      ],
+      "native_input": "historical test logs represented by clustered messages for bug prediction/localization",
+      "native_output": "bug flag and suspicious log regions",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": null,
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "C": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "class_weight": [
+          "balanced"
+        ],
+        "max_iter": [
+          2000
+        ]
+      }
+    },
+    "MULAN": {
+      "adaptation": "Rebuilds modality encoders, contrastive alignment, KPI-conditioned fusion, and graph random walk from the paper; the authors' preprocessing and implementation were not available.",
+      "execution": {
+        "required_complete_runs": 5,
+        "result_seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "selection_seed": 2027
+      },
+      "harmonized_input": "frozen metric/log/trace tensors and observed call graph",
+      "harmonized_output": "candidate-service score vector",
+      "implementation_class": "paper-derived",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "log",
+        "trace",
+        "graph"
+      ],
+      "native_input": "raw multimodal telemetry and learned causal structure",
+      "native_output": "causal-structure random-walk root ranking",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": null,
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "batch_size": [
+          16
+        ],
+        "graph_mix": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "hidden_dim": [
+          32
+        ],
+        "learning_rate": [
+          0.001
+        ],
+        "max_epochs": [
+          120
+        ],
+        "patience": [
+          15
+        ],
+        "temperature": [
+          0.1,
+          0.2
+        ],
+        "weight_decay": [
+          0.0001
+        ]
+      }
+    },
+    "MicroRCA": {
+      "adaptation": "Drops unavailable host nodes and replaces per-invocation latency with retained trace summaries while preserving attributed anomaly propagation and personalized graph ranking.",
+      "execution": {
+        "result_runs": 1,
+        "selection_seed": 2027
+      },
+      "harmonized_input": "aggregated service metrics, trace edge summaries, and observed service graph",
+      "harmonized_output": "service-only score vector",
+      "implementation_class": "source-adapted",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "trace",
+        "graph"
+      ],
+      "native_input": "per-invocation response time, container resource metrics, and service/host attributed graph",
+      "native_output": "PageRank-style service/host root ranking",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": {
+        "archive_sha256": "c599d446ed302f7f827a157bdbd5420f33aa440228b7b0d9dc8a2acb5a0c58f1",
+        "downloaded_archive": "third_party/fse2027_baselines/downloads/microrca.tar.gz",
+        "license": "no explicit license in snapshot",
+        "note": "source inspected but not redistributed in the anonymous package",
+        "snapshot_file_count": 11,
+        "url": "https://github.com/elastisys/MicroRCA"
+      },
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "damping": [
+          0.65,
+          0.85,
+          0.95
+        ],
+        "direct_mix": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "reverse": [
+          false,
+          true
+        ]
+      }
+    },
+    "MicroRank": {
+      "adaptation": "Preserves anomalous/normal partition, bipartite ranking, and spectrum scoring, but substitutes retained time bins for discarded request identifiers.",
+      "execution": {
+        "result_runs": 1,
+        "selection_seed": 2027
+      },
+      "harmonized_input": "time bins treated as request units with service trace observations and observed service graph",
+      "harmonized_output": "candidate-service score vector",
+      "implementation_class": "source-adapted",
+      "material_adapter": true,
+      "modalities": [
+        "trace",
+        "graph"
+      ],
+      "native_input": "individual normal/anomalous request traces and service-operation graph",
+      "native_output": "spectrum-weighted PageRank service ranking",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": {
+        "archive_sha256": "169600ca12942dd97894090c4fd81dae8b461a7cdd698f598d2ac916acda334e",
+        "downloaded_archive": "third_party/fse2027_baselines/downloads/microrank.tar.gz",
+        "license": "MIT",
+        "note": "",
+        "snapshot_file_count": 8,
+        "url": "https://github.com/IntelligentDDS/MicroRank"
+      },
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "anomaly_quantile": [
+          0.75,
+          0.85,
+          0.95
+        ],
+        "damping": [
+          0.65,
+          0.85
+        ],
+        "spectrum": [
+          "ochiai",
+          "tarantula"
+        ]
+      }
+    },
+    "MicroScope": {
+      "adaptation": "Three-sigma-style metric anomaly seeds are propagated on the observed call graph. The retained tensors cannot reproduce the paper's learned metric-level causal graph.",
+      "execution": {
+        "result_runs": 1,
+        "selection_seed": 2027
+      },
+      "harmonized_input": "pre/post metric tensor and observed per-incident call graph",
+      "harmonized_output": "candidate-service score vector",
+      "implementation_class": "paper-derived",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "graph"
+      ],
+      "native_input": "service performance indicators and a learned causal graph",
+      "native_output": "ranked anomalous services",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": null,
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "anomaly_threshold": [
+          2.0,
+          3.0
+        ],
+        "damping": [
+          0.65,
+          0.85,
+          0.95
+        ],
+        "direct_mix": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "reverse": [
+          false,
+          true
+        ]
+      }
+    },
+    "Nezha": {
+      "adaptation": "Reconstructs differential event-pattern support from retained tensors and aggregates event nodes to services; raw log text, spans, and fine-grained entities are unavailable.",
+      "execution": {
+        "result_runs": 1,
+        "selection_seed": 2027
+      },
+      "harmonized_input": "thresholded service/time/channel events and observed call edges",
+      "harmonized_output": "service score vector",
+      "implementation_class": "source-adapted",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "log",
+        "trace",
+        "graph"
+      ],
+      "native_input": "raw metric/log/trace events transformed to multimodal event graphs and differential patterns",
+      "native_output": "ranked fine-grained root-cause event patterns",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": {
+        "archive_sha256": "97b4d8ec48f175c49e61e6fd40e38ea360ced9fccea64da76877c685f98139d3",
+        "downloaded_archive": "third_party/fse2027_baselines/downloads/nezha.tar.gz",
+        "license": "MIT",
+        "note": "",
+        "snapshot_file_count": 1252,
+        "url": "https://github.com/IntelligentDDS/Nezha"
+      },
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "event_threshold": [
+          1.5,
+          2.0,
+          2.5
+        ],
+        "graph_mix": [
+          0.0,
+          0.25,
+          0.5
+        ],
+        "service_aggregation": [
+          "sum",
+          "max"
+        ]
+      }
+    },
+    "ReAct": {
+      "adaptation": "Instantiates ReAct for the service-ranking task with inspect_service, inspect_neighbors, compare_history, and finish; the original work does not define this RCA environment.",
+      "execution": {
+        "best_response_selection": false,
+        "cache_scope": "within a run for crash recovery; never reused across complete runs",
+        "complete_runs": 3,
+        "concurrency": 8,
+        "request_seed_each_run": 2027,
+        "retries_after_initial_attempt": 3,
+        "retry_backoff_seconds": [
+          1,
+          2,
+          4
+        ],
+        "run_indices": [
+          0,
+          1,
+          2
+        ],
+        "temperature": 0,
+        "timeout_seconds": 60,
+        "top_p": 1
+      },
+      "harmonized_input": "gpt-5.6-luna with three frozen telemetry inspection actions",
+      "harmonized_output": "parsed top-five service ranking",
+      "implementation_class": "paper-derived",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "log",
+        "trace",
+        "graph",
+        "history",
+        "llm"
+      ],
+      "native_input": "language model plus interactive environment-specific tools",
+      "native_output": "free-form answer or action trajectory",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": null,
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "maximum_calls_per_incident": 3,
+        "maximum_output_tokens_per_call": 600,
+        "prompt_file": "scripts/care/fse2027_llm_prompts.json",
+        "prompt_sha256": "f7e4185fc9f72584342645c790e3aee39c9a3633809d5f90089b32beb2bb86a6",
+        "selection": "none; exact frozen prompt"
+      }
+    },
+    "SBLD": {
+      "adaptation": "Changes event-level diagnosis to service ranking because the frozen datasets contain service-binned templates rather than test-case event sequences.",
+      "execution": {
+        "result_runs": 1,
+        "selection_seed": 2027
+      },
+      "harmonized_input": "service/template post-boundary event spectra with training incident labels only",
+      "harmonized_output": "service score vector obtained by frozen event-to-service aggregation",
+      "implementation_class": "paper-derived",
+      "material_adapter": true,
+      "modalities": [
+        "log"
+      ],
+      "native_input": "test-execution log-event spectra with pass/fail outcomes",
+      "native_output": "suspicious log events",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": null,
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "active_threshold": [
+          0.0,
+          1.0
+        ],
+        "formula": [
+          "ochiai",
+          "tarantula",
+          "jaccard",
+          "dstar2"
+        ],
+        "service_aggregation": [
+          "max",
+          "sum"
+        ]
+      }
+    },
+    "TraceAnomaly": {
+      "adaptation": "Replaces unavailable individual-trace Bayesian networks with a small variational autoencoder on training pre-fault service-bin vectors, then aggregates post-boundary reconstruction error by service.",
+      "execution": {
+        "required_complete_runs": 5,
+        "result_seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "selection_seed": 2027
+      },
+      "harmonized_input": "retained per-service/per-bin trace feature vectors",
+      "harmonized_output": "per-service reconstruction anomaly score",
+      "implementation_class": "source-adapted",
+      "material_adapter": true,
+      "modalities": [
+        "trace"
+      ],
+      "native_input": "individual traces encoded as service-level vectors for deep Bayesian-network anomaly detection",
+      "native_output": "trace anomaly probability",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": {
+        "archive_sha256": "fbcc734a6c866da509a359af9c96fd41a2ab133cd345c906b79d6d9b60c7732c",
+        "downloaded_archive": "third_party/fse2027_baselines/downloads/traceanomaly.tar.gz",
+        "license": "no explicit license in snapshot",
+        "note": "TensorFlow-1 source inspected; no upstream code redistributed",
+        "snapshot_file_count": 139,
+        "url": "https://github.com/NetManAIOps/TraceAnomaly"
+      },
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "aggregation": [
+          "mean",
+          "max",
+          "q90"
+        ],
+        "epochs": [
+          80
+        ],
+        "hidden_dim": [
+          16
+        ],
+        "latent_dim": [
+          1,
+          2
+        ],
+        "learning_rate": [
+          0.001
+        ]
+      }
+    },
+    "mABC": {
+      "adaptation": "Preserves the seven public role identities and aggregation structure. It replaces hard-coded demonstration utilities and the source snapshot's disabled vote path with dataset adapters and a fixed JSON vote.",
+      "execution": {
+        "best_response_selection": false,
+        "cache_scope": "within a run for crash recovery; never reused across complete runs",
+        "complete_runs": 3,
+        "concurrency": 8,
+        "request_seed_each_run": 2027,
+        "retries_after_initial_attempt": 3,
+        "retry_backoff_seconds": [
+          1,
+          2,
+          4
+        ],
+        "run_indices": [
+          0,
+          1,
+          2
+        ],
+        "temperature": 0,
+        "timeout_seconds": 60,
+        "top_p": 1
+      },
+      "harmonized_input": "gpt-5.6-luna; seven frozen role calls and one aggregation call over the common telemetry package",
+      "harmonized_output": "parsed top-five service ranking",
+      "implementation_class": "source-adapted",
+      "material_adapter": true,
+      "modalities": [
+        "metric",
+        "log",
+        "trace",
+        "graph",
+        "history",
+        "llm"
+      ],
+      "native_input": "seven role agents, shared microservice observations, and an aggregation/voting stage",
+      "native_output": "textual diagnosis assembled by role discussion/voting",
+      "output_semantics": "one finite score per metadata-ordered candidate service; stable descending sort",
+      "source": {
+        "archive_sha256": "c58898146fd0348f711e32029088395c2315f815c96c3a51b5e036b428a68cfc",
+        "downloaded_archive": "third_party/fse2027_baselines/downloads/mabc.tar.gz",
+        "license": "Apache-2.0",
+        "note": "",
+        "snapshot_file_count": 194,
+        "url": "https://github.com/knediny/mABC"
+      },
+      "test_failure_policy": "keep incident; use frozen label-independent fallback ranking",
+      "tuning": {
+        "aggregation_calls": 1,
+        "maximum_aggregation_output_tokens": 500,
+        "maximum_role_output_tokens": 350,
+        "prompt_file": "scripts/care/fse2027_llm_prompts.json",
+        "prompt_sha256": "f7e4185fc9f72584342645c790e3aee39c9a3633809d5f90089b32beb2bb86a6",
+        "role_calls": 7,
+        "selection": "none; exact frozen prompt"
+      }
+    }
+  },
+  "pre_result_assertion": "No new baseline adapter has been evaluated on test labels or test metrics before this file was frozen. Earlier CARE development had inspected both test cohorts, so all paper comparisons remain exploratory.",
+  "protocol_version": 1
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-basic-cpu-load-0",
+    "overlap_group": 45,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-basic-cpu-load-1",
+    "overlap_group": 92,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-basic-cpu-load-2",
+    "overlap_group": 38,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-basic-disk-io-load-0",
+    "overlap_group": 54,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-basic-disk-io-load-1",
+    "overlap_group": 147,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-basic-disk-io-load-2",
+    "overlap_group": 17,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-basic-memory-ramp-0",
+    "overlap_group": 144,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-basic-memory-ramp-1",
+    "overlap_group": 16,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-basic-memory-ramp-2",
+    "overlap_group": 131,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-basic-network-delay-0",
+    "overlap_group": 89,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-basic-network-delay-1",
+    "overlap_group": 102,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-basic-network-delay-2",
+    "overlap_group": 64,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-basic-packet-loss-0",
+    "overlap_group": 14,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-basic-packet-loss-1",
+    "overlap_group": 46,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-basic-packet-loss-2",
+    "overlap_group": 62,
+    "root_service": "ts-basic-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-order-cpu-load-0",
+    "overlap_group": 47,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-order-cpu-load-1",
+    "overlap_group": 15,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-order-cpu-load-2",
+    "overlap_group": 128,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-order-disk-io-load-0",
+    "overlap_group": 65,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-order-disk-io-load-1",
+    "overlap_group": 75,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-order-disk-io-load-2",
+    "overlap_group": 69,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-order-memory-ramp-0",
+    "overlap_group": 81,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-order-memory-ramp-1",
+    "overlap_group": 126,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-order-memory-ramp-2",
+    "overlap_group": 138,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-order-network-delay-0",
+    "overlap_group": 35,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-order-network-delay-1",
+    "overlap_group": 29,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-order-network-delay-2",
+    "overlap_group": 74,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-order-packet-loss-0",
+    "overlap_group": 5,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-order-packet-loss-1",
+    "overlap_group": 142,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-order-packet-loss-2",
+    "overlap_group": 9,
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-price-cpu-load-0",
+    "overlap_group": 6,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-price-cpu-load-1",
+    "overlap_group": 41,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-price-cpu-load-2",
+    "overlap_group": 50,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-price-disk-io-load-0",
+    "overlap_group": 66,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-price-disk-io-load-1",
+    "overlap_group": 95,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-price-disk-io-load-2",
+    "overlap_group": 3,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-price-memory-ramp-0",
+    "overlap_group": 109,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-price-memory-ramp-1",
+    "overlap_group": 26,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-price-memory-ramp-2",
+    "overlap_group": 42,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-price-network-delay-0",
+    "overlap_group": 120,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-price-network-delay-1",
+    "overlap_group": 37,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-price-network-delay-2",
+    "overlap_group": 12,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-price-packet-loss-0",
+    "overlap_group": 2,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-price-packet-loss-1",
+    "overlap_group": 134,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-price-packet-loss-2",
+    "overlap_group": 121,
+    "root_service": "ts-price-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-route-cpu-load-0",
+    "overlap_group": 140,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-route-cpu-load-1",
+    "overlap_group": 0,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-route-cpu-load-2",
+    "overlap_group": 112,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-route-disk-io-load-0",
+    "overlap_group": 105,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-route-disk-io-load-1",
+    "overlap_group": 111,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-route-disk-io-load-2",
+    "overlap_group": 115,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-route-memory-ramp-0",
+    "overlap_group": 90,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-route-memory-ramp-1",
+    "overlap_group": 77,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-route-memory-ramp-2",
+    "overlap_group": 52,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-route-network-delay-0",
+    "overlap_group": 88,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-route-network-delay-1",
+    "overlap_group": 148,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-route-network-delay-2",
+    "overlap_group": 116,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-route-packet-loss-0",
+    "overlap_group": 56,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-route-packet-loss-1",
+    "overlap_group": 63,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-route-packet-loss-2",
+    "overlap_group": 141,
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-station-cpu-load-0",
+    "overlap_group": 13,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-station-cpu-load-1",
+    "overlap_group": 30,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-station-cpu-load-2",
+    "overlap_group": 132,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-station-disk-io-load-0",
+    "overlap_group": 100,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-station-disk-io-load-1",
+    "overlap_group": 33,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-station-disk-io-load-2",
+    "overlap_group": 43,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-station-memory-ramp-0",
+    "overlap_group": 143,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-station-memory-ramp-1",
+    "overlap_group": 49,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-station-memory-ramp-2",
+    "overlap_group": 70,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-station-network-delay-0",
+    "overlap_group": 68,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-station-network-delay-1",
+    "overlap_group": 106,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-station-network-delay-2",
+    "overlap_group": 27,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-station-packet-loss-0",
+    "overlap_group": 48,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-station-packet-loss-1",
+    "overlap_group": 149,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-station-packet-loss-2",
+    "overlap_group": 8,
+    "root_service": "ts-station-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-ticketinfo-cpu-load-0",
+    "overlap_group": 23,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-ticketinfo-cpu-load-1",
+    "overlap_group": 84,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-ticketinfo-cpu-load-2",
+    "overlap_group": 80,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-ticketinfo-disk-io-load-0",
+    "overlap_group": 67,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-ticketinfo-disk-io-load-1",
+    "overlap_group": 18,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-ticketinfo-disk-io-load-2",
+    "overlap_group": 122,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-ticketinfo-memory-ramp-0",
+    "overlap_group": 97,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-ticketinfo-memory-ramp-1",
+    "overlap_group": 1,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-ticketinfo-memory-ramp-2",
+    "overlap_group": 145,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-ticketinfo-network-delay-0",
+    "overlap_group": 58,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-ticketinfo-network-delay-1",
+    "overlap_group": 22,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-ticketinfo-network-delay-2",
+    "overlap_group": 113,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-ticketinfo-packet-loss-0",
+    "overlap_group": 19,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-ticketinfo-packet-loss-1",
+    "overlap_group": 28,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-ticketinfo-packet-loss-2",
+    "overlap_group": 137,
+    "root_service": "ts-ticketinfo-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-train-cpu-load-0",
+    "overlap_group": 129,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-train-cpu-load-1",
+    "overlap_group": 39,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-train-cpu-load-2",
+    "overlap_group": 59,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-train-disk-io-load-0",
+    "overlap_group": 139,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-train-disk-io-load-1",
+    "overlap_group": 72,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-train-disk-io-load-2",
+    "overlap_group": 40,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-train-memory-ramp-0",
+    "overlap_group": 24,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-train-memory-ramp-1",
+    "overlap_group": 133,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-train-memory-ramp-2",
+    "overlap_group": 78,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-train-network-delay-0",
+    "overlap_group": 86,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-train-network-delay-1",
+    "overlap_group": 118,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-train-network-delay-2",
+    "overlap_group": 135,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-train-packet-loss-0",
+    "overlap_group": 130,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-train-packet-loss-1",
+    "overlap_group": 110,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-train-packet-loss-2",
+    "overlap_group": 104,
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-travel-cpu-load-0",
+    "overlap_group": 44,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-travel-cpu-load-1",
+    "overlap_group": 119,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "cpu_load",
+    "incident_id": "care-travel-cpu-load-2",
+    "overlap_group": 114,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-travel-disk-io-load-0",
+    "overlap_group": 123,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-travel-disk-io-load-1",
+    "overlap_group": 108,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "disk_io_load",
+    "incident_id": "care-travel-disk-io-load-2",
+    "overlap_group": 117,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-travel-memory-ramp-0",
+    "overlap_group": 73,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-travel-memory-ramp-1",
+    "overlap_group": 82,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "memory_ramp",
+    "incident_id": "care-travel-memory-ramp-2",
+    "overlap_group": 7,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-travel-network-delay-0",
+    "overlap_group": 96,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-travel-network-delay-1",
+    "overlap_group": 124,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "network_delay",
+    "incident_id": "care-travel-network-delay-2",
+    "overlap_group": 76,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-travel-packet-loss-0",
+    "overlap_group": 55,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-travel-packet-loss-1",
+    "overlap_group": 125,
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "packet_loss",
+    "incident_id": "care-travel-packet-loss-2",
+    "overlap_group": 36,
+    "root_service": "ts-travel-service"
+  }
+]

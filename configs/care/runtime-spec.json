@@ -1,0 +1,9 @@
+{
+  "base": "Python 3.10; existing local CUDA 12.4 PyTorch runtime",
+  "python": "/tmp/eadro-care-runtime/bin/python",
+  "packages": {"torch": "2.6.0", "transformers": "4.51.3", "scikit-learn": "1.7.2", "numpy": "1.26.4"},
+  "torch_cuda_build": "12.4",
+  "resources": {"gpu": "NVIDIA A100-SXM4-80GB", "cpu_threads": 4},
+  "weights": {"qwen3": "models/Qwen3-8B"},
+  "witness": "/tmp/eadro-care-runtime/bin/python scripts/care/check_runtime.py"
+}

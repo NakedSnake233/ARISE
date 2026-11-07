@@ -1,0 +1,5 @@
+{
+  "code": {"repository": "https://github.com/phamquiluan/RCAEval", "commit": "259ea4167160256a74ad30004aa3d96a998c846e", "directory": "third_party/rcaeval_259ea416"},
+  "data": {"repository": "phamquiluan/RCAEval", "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e", "official_reference": "https://github.com/phamquiluan/RCAEval#available-datasets", "index": "cache/rcaeval_re2/cases.parquet"},
+  "datasets": {"RE2-OB": "re2_ob", "RE2-SS": "re2_ss", "RE2-TT": "re2_tt"}
+}

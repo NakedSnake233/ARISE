@@ -1,0 +1,148 @@
+{
+  "trainticket": {
+    "source": {
+      "repository": "https://github.com/FudanSELab/train-ticket",
+      "revision": "e5ae0c3a4fa951980f9fe5640d6e077ab1852af9"
+    },
+    "deployment": {
+      "candidate_application_services": 41,
+      "database_workloads_not_ranked": 22,
+      "container_images": [
+        "codewisdom/ts-admin-basic-info-service-with-jaeger:v1",
+        "codewisdom/ts-admin-order-service-with-jaeger:v1",
+        "codewisdom/ts-admin-route-service-with-jaeger:v1",
+        "codewisdom/ts-admin-travel-service-with-jaeger:v1",
+        "codewisdom/ts-admin-user-service-with-jaeger:v1",
+        "codewisdom/ts-assurance-service-with-jaeger:v1",
+        "codewisdom/ts-auth-service-with-jaeger:v1",
+        "codewisdom/ts-basic-service-with-jaeger:v1",
+        "codewisdom/ts-cancel-service-with-jaeger:v1",
+        "codewisdom/ts-config-service-with-jaeger:v1",
+        "codewisdom/ts-consign-price-service-with-jaeger:v1",
+        "codewisdom/ts-consign-service-with-jaeger:v1",
+        "codewisdom/ts-contacts-service-with-jaeger:v1",
+        "codewisdom/ts-execute-service-with-jaeger:v1",
+        "codewisdom/ts-food-map-service-with-jaeger:v1",
+        "codewisdom/ts-food-service-with-jaeger:v1",
+        "codewisdom/ts-inside-payment-service-with-jaeger:v1",
+        "codewisdom/ts-news-service-with-jaeger:v1",
+        "codewisdom/ts-notification-service-with-jaeger:v1",
+        "codewisdom/ts-order-other-service-with-jaeger:v1",
+        "codewisdom/ts-order-service-with-jaeger:v1",
+        "codewisdom/ts-payment-service-with-jaeger:v1",
+        "codewisdom/ts-preserve-other-service-with-jaeger:v1",
+        "codewisdom/ts-preserve-service-with-jaeger:v1",
+        "codewisdom/ts-price-service-with-jaeger:v1",
+        "codewisdom/ts-rebook-service-with-jaeger:v1",
+        "codewisdom/ts-route-plan-service-with-jaeger:v1",
+        "codewisdom/ts-route-service-with-jaeger:v1",
+        "codewisdom/ts-seat-service-with-jaeger:v1",
+        "codewisdom/ts-security-service-with-jaeger:v1",
+        "codewisdom/ts-station-service-with-jaeger:v1",
+        "codewisdom/ts-ticket-office-service-with-jaeger:v1",
+        "codewisdom/ts-ticketinfo-service-with-jaeger:v1",
+        "codewisdom/ts-train-service-with-jaeger:v1",
+        "codewisdom/ts-travel-plan-service-with-jaeger:v1",
+        "codewisdom/ts-travel-service-with-jaeger:v1",
+        "codewisdom/ts-travel2-service-with-jaeger:v1",
+        "codewisdom/ts-ui-dashboard-with-jaeger:v1",
+        "codewisdom/ts-user-service-with-jaeger:v1",
+        "codewisdom/ts-verification-code-service-with-jaeger:v1",
+        "codewisdom/ts-voucher-service-with-jaeger:v1",
+        "jaegertracing/all-in-one:1.57.0",
+        "mongo:4.4.29",
+        "mysql:5.6.35"
+      ]
+    },
+    "collection": {
+      "namespace": "care-tt",
+      "context": "care-tt",
+      "seed": 42,
+      "repetitions": 3,
+      "warmup_seconds": 60,
+      "fault_seconds": 120,
+      "cooldown_seconds": 60,
+      "users": 5,
+      "request_interval_seconds": 1.0,
+      "services": [
+        "ts-travel-service",
+        "ts-travel2-service",
+        "ts-route-service",
+        "ts-station-service",
+        "ts-train-service",
+        "ts-seat-service",
+        "ts-ticketinfo-service",
+        "ts-basic-service",
+        "ts-price-service",
+        "ts-order-service"
+      ],
+      "faults": [
+        "cpu_load",
+        "memory_ramp",
+        "network_delay",
+        "packet_loss",
+        "disk_io_load"
+      ],
+      "parameters": {
+        "cpu_load_percent": 80,
+        "memory_size": "256MB",
+        "network_delay": "200ms",
+        "packet_loss_percent": "20",
+        "disk_bytes": "128M"
+      },
+      "notes": [
+        "This is a newly specified reproducible protocol; the paper does not supply original injection parameters.",
+        "Memory ramp emulates increasing memory pressure, not an application-code memory leak.",
+        "Disk workload is bounded scratch I/O, not disk exhaustion.",
+        "150 incidents at 240 seconds each require about 10 hours, excluding startup and recovery."
+      ]
+    },
+    "workload": {
+      "concurrent_users": 5,
+      "per_user_interval_seconds": 1.0,
+      "endpoints": [
+        "/api/v1/travelservice/trips/left",
+        "/api/v1/travel2service/trips/left"
+      ],
+      "request_body": {
+        "startingPlace": "Shang Hai",
+        "endPlace": "Su Zhou",
+        "departureTime": "next UTC day"
+      },
+      "pre_injection_gate": "At least one HTTP-200 nonempty business response and a fresh target-service trace were required."
+    },
+    "eligibility": "Only captures marked complete with confirmed injection and recovery, nonempty traces, no collector errors, and the target present in traces.",
+    "split": "Sort windows by start inside each cloud, form connected components under interval overlap, NumPy default_rng(42).shuffle components, take the first round(20%) components for test and the first round(10%) of the remainder for validation. All 150 components here are singletons."
+  },
+  "aiops2022": {
+    "official_portal": "https://challenge.aiops.cn/home/",
+    "materials": "https://www.aiops.cn/aiopschallenge/",
+    "source_dates": [
+      "2022-03-20",
+      "2022-03-21",
+      "2022-03-24"
+    ],
+    "selected_clouds": [
+      "2022-03-20-cloudbed1",
+      "2022-03-20-cloudbed2",
+      "2022-03-20-cloudbed3",
+      "2022-03-21-cloudbed1",
+      "2022-03-21-cloudbed2",
+      "2022-03-21-cloudbed3",
+      "2022-03-24-cloudbed3"
+    ],
+    "eligibility": "Read groundtruth-k8s-<cloud>-<date>.csv; keep service-level events whose normalized cmdb_id is one of the ten ordered services; exclude node faults and any event whose [-180,+240) second observation window contains another service or host fault onset in the same cloud.",
+    "selection": "Within each cloud, sort by (start, incident_id) and form connected overlap components. Shuffle components with NumPy default_rng(42). A one-pass subset-sum table stores the first component-index list that reaches each total and selects exactly 128 events. Shuffle those selected components with the same generator and apply the identical first-reachable rule to select round(128*0.2)=26 test events.",
+    "frozen_split_manifest_sha256": "bbd0bc8a5592d4b6938a51b03e56ac3cf32d13f22be2b01755ca596f45d30cd6"
+  },
+  "software_versions": {
+    "python": "3.10 recommended",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4",
+    "scikit_learn": "1.7.2",
+    "pandas": "2.3.3",
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "drain3": "0.9.11"
+  }
+}

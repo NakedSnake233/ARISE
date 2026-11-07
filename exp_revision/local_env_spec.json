@@ -1,0 +1,19 @@
+{
+  "base": "existing /workspace/anaconda3/envs/llama_factory (Python 3.10, torch 2.6.0+cu124)",
+  "system_pkgs": [],
+  "pip_phases": [
+    ["numpy==1.26.4", "scikit-learn==1.7.2", "drain3==0.9.11", "pytest==9.1.1", "jsonpickle==4.1.2", "pluggy==1.6.0", "iniconfig==2.3.0", "tomli==2.4.1", "--no-cache-dir", "--no-deps"],
+    ["scipy==1.15.3", "--no-cache-dir", "--no-deps"]
+  ],
+  "env": {"OMP_NUM_THREADS": "4", "MKL_NUM_THREADS": "4", "OPENBLAS_NUM_THREADS": "4"},
+  "run_commands": ["/workspace/anaconda3/envs/llama_factory/bin/python -m venv --system-site-packages /workspace/CARE/cache/exp_runtime/venv"],
+  "weight_dirs": {},
+  "smoke": {
+    "import_names": ["torch", "numpy", "scipy", "sklearn", "pandas", "pyarrow", "drain3"],
+    "gpu_tests": [{
+      "cmd": "python -c 'import torch; torch.manual_seed(0); x=torch.randn(8,8,device=\"cuda\"); print(\"WITNESS\",(x@x).shape,torch.cuda.get_device_name())'",
+      "expect": "^WITNESS torch.Size\\(\\[8, 8\\]\\) NVIDIA A100-SXM4-80GB$"
+    }],
+    "cli_checks": ["nvidia-smi"]
+  }
+}

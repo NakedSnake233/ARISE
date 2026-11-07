@@ -1,0 +1,84 @@
+{
+  "trainticket": {
+    "incident_count": 150,
+    "split_counts": {
+      "test": 30,
+      "train": 108,
+      "validation": 12
+    },
+    "fault_type_counts": {
+      "cpu_load": 30,
+      "disk_io_load": 30,
+      "memory_ramp": 30,
+      "network_delay": 30,
+      "packet_loss": 30
+    },
+    "root_service_counts": {
+      "ts-basic-service": 15,
+      "ts-order-service": 15,
+      "ts-price-service": 15,
+      "ts-route-service": 15,
+      "ts-seat-service": 15,
+      "ts-station-service": 15,
+      "ts-ticketinfo-service": 15,
+      "ts-train-service": 15,
+      "ts-travel-service": 15,
+      "ts-travel2-service": 15
+    },
+    "cloud_counts": {
+      "care-tt": 150
+    },
+    "overlap_components_by_split": {
+      "test": 30,
+      "train": 108,
+      "validation": 12
+    },
+    "incidents_json_sha256": "a16a01cad5933db1234143069936cf9c34e4dd33cdeae2215a4a33e3936e40d7",
+    "features_npz_sha256": "c64a705d7739e52cca6fefe56086ff94c91f85d0a86693546616806f46441928"
+  },
+  "aiops2022": {
+    "incident_count": 128,
+    "split_counts": {
+      "test": 26,
+      "train": 102
+    },
+    "fault_type_counts": {
+      "k8s容器cpu负载": 15,
+      "k8s容器内存负载": 12,
+      "k8s容器写io负载": 8,
+      "k8s容器网络丢包": 18,
+      "k8s容器网络延迟": 16,
+      "k8s容器网络资源包损坏": 21,
+      "k8s容器网络资源包重复发送": 12,
+      "k8s容器读io负载": 15,
+      "k8s容器进程中止": 11
+    },
+    "root_service_counts": {
+      "adservice": 12,
+      "cartservice": 16,
+      "checkoutservice": 11,
+      "currencyservice": 12,
+      "emailservice": 15,
+      "frontend": 10,
+      "paymentservice": 5,
+      "productcatalogservice": 17,
+      "recommendationservice": 16,
+      "shippingservice": 14
+    },
+    "cloud_counts": {
+      "2022-03-20-cloudbed1": 14,
+      "2022-03-20-cloudbed2": 11,
+      "2022-03-20-cloudbed3": 12,
+      "2022-03-21-cloudbed1": 21,
+      "2022-03-21-cloudbed2": 27,
+      "2022-03-21-cloudbed3": 22,
+      "2022-03-24-cloudbed3": 21
+    },
+    "overlap_components_by_split": {
+      "test": 26,
+      "train": 101
+    },
+    "incidents_json_sha256": "6707dc77d92cd07c757ca65bff4ca45165f5b6de76ac36252f4ff5f26149a849",
+    "features_npz_sha256": "c2d8f5af60fd77016d99ba1b3d81b960a6329c864539b06665e345f33bdd1d9c"
+  }
+}

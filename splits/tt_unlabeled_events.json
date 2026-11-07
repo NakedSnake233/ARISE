@@ -1,0 +1,1052 @@
+[
+  {
+    "end": 1790207957.8077593,
+    "incident_id": "care-basic-cpu-load-0",
+    "overlap_group": 45,
+    "source": "data/care/trainticket-collected/care-basic-cpu-load-0/incident.json",
+    "start": 1790207717.8077593
+  },
+  {
+    "end": 1790205505.5216885,
+    "incident_id": "care-basic-cpu-load-1",
+    "overlap_group": 92,
+    "source": "data/care/trainticket-collected/care-basic-cpu-load-1/incident.json",
+    "start": 1790205265.5216885
+  },
+  {
+    "end": 1790219320.8343008,
+    "incident_id": "care-basic-cpu-load-2",
+    "overlap_group": 38,
+    "source": "data/care/trainticket-collected/care-basic-cpu-load-2/incident.json",
+    "start": 1790219080.8343008
+  },
+  {
+    "end": 1790207132.2826962,
+    "incident_id": "care-basic-disk-io-load-0",
+    "overlap_group": 54,
+    "source": "data/care/trainticket-collected/care-basic-disk-io-load-0/incident.json",
+    "start": 1790206892.2826962
+  },
+  {
+    "end": 1790193669.138731,
+    "incident_id": "care-basic-disk-io-load-1",
+    "overlap_group": 147,
+    "source": "data/care/trainticket-collected/care-basic-disk-io-load-1/incident.json",
+    "start": 1790193429.138731
+  },
+  {
+    "end": 1790189373.2958298,
+    "incident_id": "care-basic-disk-io-load-2",
+    "overlap_group": 17,
+    "source": "data/care/trainticket-collected/care-basic-disk-io-load-2/incident.json",
+    "start": 1790189133.2958298
+  },
+  {
+    "end": 1790221773.77673,
+    "incident_id": "care-basic-memory-ramp-0",
+    "overlap_group": 144,
+    "source": "data/care/trainticket-collected/care-basic-memory-ramp-0/incident.json",
+    "start": 1790221533.77673
+  },
+  {
+    "end": 1790173711.9913344,
+    "incident_id": "care-basic-memory-ramp-1",
+    "overlap_group": 16,
+    "source": "data/care/trainticket-collected/care-basic-memory-ramp-1/incident.json",
+    "start": 1790173471.9913344
+  },
+  {
+    "end": 1790193400.0350997,
+    "incident_id": "care-basic-memory-ramp-2",
+    "overlap_group": 131,
+    "source": "data/care/trainticket-collected/care-basic-memory-ramp-2/incident.json",
+    "start": 1790193160.0350997
+  },
+  {
+    "end": 1790204431.7582362,
+    "incident_id": "care-basic-network-delay-0",
+    "overlap_group": 89,
+    "source": "data/care/trainticket-collected/care-basic-network-delay-0/incident.json",
+    "start": 1790204191.7582362
+  },
+  {
+    "end": 1790206320.5631864,
+    "incident_id": "care-basic-network-delay-1",
+    "overlap_group": 102,
+    "source": "data/care/trainticket-collected/care-basic-network-delay-1/incident.json",
+    "start": 1790206080.5631864
+  },
+  {
+    "end": 1790210919.3428805,
+    "incident_id": "care-basic-network-delay-2",
+    "overlap_group": 64,
+    "source": "data/care/trainticket-collected/care-basic-network-delay-2/incident.json",
+    "start": 1790210679.3428805
+  },
+  {
+    "end": 1790218781.974005,
+    "incident_id": "care-basic-packet-loss-0",
+    "overlap_group": 14,
+    "source": "data/care/trainticket-collected/care-basic-packet-loss-0/incident.json",
+    "start": 1790218541.974005
+  },
+  {
+    "end": 1790198502.0537424,
+    "incident_id": "care-basic-packet-loss-1",
+    "overlap_group": 46,
+    "source": "data/care/trainticket-collected/care-basic-packet-loss-1/incident.json",
+    "start": 1790198262.0537424
+  },
+  {
+    "end": 1790194203.8834684,
+    "incident_id": "care-basic-packet-loss-2",
+    "overlap_group": 62,
+    "source": "data/care/trainticket-collected/care-basic-packet-loss-2/incident.json",
+    "start": 1790193963.8834684
+  },
+  {
+    "end": 1790202264.4793353,
+    "incident_id": "care-order-cpu-load-0",
+    "overlap_group": 47,
+    "source": "data/care/trainticket-collected/care-order-cpu-load-0/incident.json",
+    "start": 1790202024.4793353
+  },
+  {
+    "end": 1790190716.1226764,
+    "incident_id": "care-order-cpu-load-1",
+    "overlap_group": 15,
+    "source": "data/care/trainticket-collected/care-order-cpu-load-1/incident.json",
+    "start": 1790190476.1226764
+  },
+  {
+    "end": 1790193130.928453,
+    "incident_id": "care-order-cpu-load-2",
+    "overlap_group": 128,
+    "source": "data/care/trainticket-collected/care-order-cpu-load-2/incident.json",
+    "start": 1790192890.928453
+  },
+  {
+    "end": 1790210380.451491,
+    "incident_id": "care-order-disk-io-load-0",
+    "overlap_group": 65,
+    "source": "data/care/trainticket-collected/care-order-disk-io-load-0/incident.json",
+    "start": 1790210140.451491
+  },
+  {
+    "end": 1790219862.303123,
+    "incident_id": "care-order-disk-io-load-1",
+    "overlap_group": 75,
+    "source": "data/care/trainticket-collected/care-order-disk-io-load-1/incident.json",
+    "start": 1790219622.303123
+  },
+  {
+    "end": 1790201455.3401332,
+    "incident_id": "care-order-disk-io-load-2",
+    "overlap_group": 69,
+    "source": "data/care/trainticket-collected/care-order-disk-io-load-2/incident.json",
+    "start": 1790201215.3401332
+  },
+  {
+    "end": 1790200916.1029313,
+    "incident_id": "care-order-memory-ramp-0",
+    "overlap_group": 81,
+    "source": "data/care/trainticket-collected/care-order-memory-ramp-0/incident.json",
+    "start": 1790200676.1029313
+  },
+  {
+    "end": 1790222316.7366068,
+    "incident_id": "care-order-memory-ramp-1",
+    "overlap_group": 126,
+    "source": "data/care/trainticket-collected/care-order-memory-ramp-1/incident.json",
+    "start": 1790222076.7366068
+  },
+  {
+    "end": 1790213632.0667932,
+    "incident_id": "care-order-memory-ramp-2",
+    "overlap_group": 138,
+    "source": "data/care/trainticket-collected/care-order-memory-ramp-2/incident.json",
+    "start": 1790213392.0667932
+  },
+  {
+    "end": 1790187512.4542835,
+    "incident_id": "care-order-network-delay-0",
+    "overlap_group": 35,
+    "source": "data/care/trainticket-collected/care-order-network-delay-0/incident.json",
+    "start": 1790187272.4542835
+  },
+  {
+    "end": 1790208228.6067731,
+    "incident_id": "care-order-network-delay-1",
+    "overlap_group": 29,
+    "source": "data/care/trainticket-collected/care-order-network-delay-1/incident.json",
+    "start": 1790207988.6067731
+  },
+  {
+    "end": 1790204163.7158623,
+    "incident_id": "care-order-network-delay-2",
+    "overlap_group": 74,
+    "source": "data/care/trainticket-collected/care-order-network-delay-2/incident.json",
+    "start": 1790203923.7158623
+  },
+  {
+    "end": 1790216348.7497334,
+    "incident_id": "care-order-packet-loss-0",
+    "overlap_group": 5,
+    "source": "data/care/trainticket-collected/care-order-packet-loss-0/incident.json",
+    "start": 1790216108.7497334
+  },
+  {
+    "end": 1790196627.8055851,
+    "incident_id": "care-order-packet-loss-1",
+    "overlap_group": 142,
+    "source": "data/care/trainticket-collected/care-order-packet-loss-1/incident.json",
+    "start": 1790196387.8055851
+  },
+  {
+    "end": 1790192861.6235032,
+    "incident_id": "care-order-packet-loss-2",
+    "overlap_group": 9,
+    "source": "data/care/trainticket-collected/care-order-packet-loss-2/incident.json",
+    "start": 1790192621.6235032
+  },
+  {
+    "end": 1790205775.7475886,
+    "incident_id": "care-price-cpu-load-0",
+    "overlap_group": 6,
+    "source": "data/care/trainticket-collected/care-price-cpu-load-0/incident.json",
+    "start": 1790205535.7475886
+  },
+  {
+    "end": 1790215248.289288,
+    "incident_id": "care-price-cpu-load-1",
+    "overlap_group": 41,
+    "source": "data/care/trainticket-collected/care-price-cpu-load-1/incident.json",
+    "start": 1790215008.289288
+  },
+  {
+    "end": 1790197433.504785,
+    "incident_id": "care-price-cpu-load-2",
+    "overlap_group": 50,
+    "source": "data/care/trainticket-collected/care-price-cpu-load-2/incident.json",
+    "start": 1790197193.504785
+  },
+  {
+    "end": 1790189641.8774056,
+    "incident_id": "care-price-disk-io-load-0",
+    "overlap_group": 66,
+    "source": "data/care/trainticket-collected/care-price-disk-io-load-0/incident.json",
+    "start": 1790189401.8774056
+  },
+  {
+    "end": 1790173453.55105,
+    "incident_id": "care-price-disk-io-load-1",
+    "overlap_group": 95,
+    "source": "data/care/trainticket-collected/care-price-disk-io-load-1/incident.json",
+    "start": 1790173213.55105
+  },
+  {
+    "end": 1790173967.6381247,
+    "incident_id": "care-price-disk-io-load-2",
+    "overlap_group": 3,
+    "source": "data/care/trainticket-collected/care-price-disk-io-load-2/incident.json",
+    "start": 1790173727.6381247
+  },
+  {
+    "end": 1790190180.0722904,
+    "incident_id": "care-price-memory-ramp-0",
+    "overlap_group": 109,
+    "source": "data/care/trainticket-collected/care-price-memory-ramp-0/incident.json",
+    "start": 1790189940.0722904
+  },
+  {
+    "end": 1790204968.8560123,
+    "incident_id": "care-price-memory-ramp-1",
+    "overlap_group": 26,
+    "source": "data/care/trainticket-collected/care-price-memory-ramp-1/incident.json",
+    "start": 1790204728.8560123
+  },
+  {
+    "end": 1790212551.9313116,
+    "incident_id": "care-price-memory-ramp-2",
+    "overlap_group": 42,
+    "source": "data/care/trainticket-collected/care-price-memory-ramp-2/incident.json",
+    "start": 1790212311.9313116
+  },
+  {
+    "end": 1790215517.2895558,
+    "incident_id": "care-price-network-delay-0",
+    "overlap_group": 120,
+    "source": "data/care/trainticket-collected/care-price-network-delay-0/incident.json",
+    "start": 1790215277.2895558
+  },
+  {
+    "end": 1790191516.1104476,
+    "incident_id": "care-price-network-delay-1",
+    "overlap_group": 37,
+    "source": "data/care/trainticket-collected/care-price-network-delay-1/incident.json",
+    "start": 1790191276.1104476
+  },
+  {
+    "end": 1790190447.8530474,
+    "incident_id": "care-price-network-delay-2",
+    "overlap_group": 12,
+    "source": "data/care/trainticket-collected/care-price-network-delay-2/incident.json",
+    "start": 1790190207.8530474
+  },
+  {
+    "end": 1790220133.550911,
+    "incident_id": "care-price-packet-loss-0",
+    "overlap_group": 2,
+    "source": "data/care/trainticket-collected/care-price-packet-loss-0/incident.json",
+    "start": 1790219893.550911
+  },
+  {
+    "end": 1790174738.5017524,
+    "incident_id": "care-price-packet-loss-1",
+    "overlap_group": 134,
+    "source": "data/care/trainticket-collected/care-price-packet-loss-1/incident.json",
+    "start": 1790174498.5017524
+  },
+  {
+    "end": 1790188308.33064,
+    "incident_id": "care-price-packet-loss-2",
+    "overlap_group": 121,
+    "source": "data/care/trainticket-collected/care-price-packet-loss-2/incident.json",
+    "start": 1790188068.33064
+  },
+  {
+    "end": 1790189105.7105892,
+    "incident_id": "care-route-cpu-load-0",
+    "overlap_group": 140,
+    "source": "data/care/trainticket-collected/care-route-cpu-load-0/incident.json",
+    "start": 1790188865.7105892
+  },
+  {
+    "end": 1790202804.1514199,
+    "incident_id": "care-route-cpu-load-1",
+    "overlap_group": 0,
+    "source": "data/care/trainticket-collected/care-route-cpu-load-1/incident.json",
+    "start": 1790202564.1514199
+  },
+  {
+    "end": 1790188041.6804821,
+    "incident_id": "care-route-cpu-load-2",
+    "overlap_group": 112,
+    "source": "data/care/trainticket-collected/care-route-cpu-load-2/incident.json",
+    "start": 1790187801.6804821
+  },
+  {
+    "end": 1790192588.066129,
+    "incident_id": "care-route-disk-io-load-0",
+    "overlap_group": 105,
+    "source": "data/care/trainticket-collected/care-route-disk-io-load-0/incident.json",
+    "start": 1790192348.066129
+  },
+  {
+    "end": 1790216617.8039346,
+    "incident_id": "care-route-disk-io-load-1",
+    "overlap_group": 111,
+    "source": "data/care/trainticket-collected/care-route-disk-io-load-1/incident.json",
+    "start": 1790216377.8039346
+  },
+  {
+    "end": 1790213362.6070073,
+    "incident_id": "care-route-disk-io-load-2",
+    "overlap_group": 115,
+    "source": "data/care/trainticket-collected/care-route-disk-io-load-2/incident.json",
+    "start": 1790213122.6070073
+  },
+  {
+    "end": 1790212822.418265,
+    "incident_id": "care-route-memory-ramp-0",
+    "overlap_group": 90,
+    "source": "data/care/trainticket-collected/care-route-memory-ramp-0/incident.json",
+    "start": 1790212582.418265
+  },
+  {
+    "end": 1790203894.809767,
+    "incident_id": "care-route-memory-ramp-1",
+    "overlap_group": 77,
+    "source": "data/care/trainticket-collected/care-route-memory-ramp-1/incident.json",
+    "start": 1790203654.809767
+  },
+  {
+    "end": 1790222859.161995,
+    "incident_id": "care-route-memory-ramp-2",
+    "overlap_group": 52,
+    "source": "data/care/trainticket-collected/care-route-memory-ramp-2/incident.json",
+    "start": 1790222619.161995
+  },
+  {
+    "end": 1790198236.2144628,
+    "incident_id": "care-route-network-delay-0",
+    "overlap_group": 88,
+    "source": "data/care/trainticket-collected/care-route-network-delay-0/incident.json",
+    "start": 1790197996.2144628
+  },
+  {
+    "end": 1790210114.2751622,
+    "incident_id": "care-route-network-delay-1",
+    "overlap_group": 148,
+    "source": "data/care/trainticket-collected/care-route-network-delay-1/incident.json",
+    "start": 1790209874.2751622
+  },
+  {
+    "end": 1790175525.4560876,
+    "incident_id": "care-route-network-delay-2",
+    "overlap_group": 116,
+    "source": "data/care/trainticket-collected/care-route-network-delay-2/incident.json",
+    "start": 1790175285.4560876
+  },
+  {
+    "end": 1790175012.229317,
+    "incident_id": "care-route-packet-loss-0",
+    "overlap_group": 56,
+    "source": "data/care/trainticket-collected/care-route-packet-loss-0/incident.json",
+    "start": 1790174772.229317
+  },
+  {
+    "end": 1790175267.8821273,
+    "incident_id": "care-route-packet-loss-1",
+    "overlap_group": 63,
+    "source": "data/care/trainticket-collected/care-route-packet-loss-1/incident.json",
+    "start": 1790175027.8821273
+  },
+  {
+    "end": 1790201184.8450046,
+    "incident_id": "care-route-packet-loss-2",
+    "overlap_group": 141,
+    "source": "data/care/trainticket-collected/care-route-packet-loss-2/incident.json",
+    "start": 1790200944.8450046
+  },
+  {
+    "end": 1790174224.7514124,
+    "incident_id": "care-seat-cpu-load-0",
+    "overlap_group": 11,
+    "source": "data/care/trainticket-collected/care-seat-cpu-load-0/incident.json",
+    "start": 1790173984.7514124
+  },
+  {
+    "end": 1790197968.0179694,
+    "incident_id": "care-seat-cpu-load-1",
+    "overlap_group": 34,
+    "source": "data/care/trainticket-collected/care-seat-cpu-load-1/incident.json",
+    "start": 1790197728.0179694
+  },
+  {
+    "end": 1790213093.254663,
+    "incident_id": "care-seat-cpu-load-2",
+    "overlap_group": 71,
+    "source": "data/care/trainticket-collected/care-seat-cpu-load-2/incident.json",
+    "start": 1790212853.254663
+  },
+  {
+    "end": 1790206588.5444262,
+    "incident_id": "care-seat-disk-io-load-0",
+    "overlap_group": 101,
+    "source": "data/care/trainticket-collected/care-seat-disk-io-load-0/incident.json",
+    "start": 1790206348.5444262
+  },
+  {
+    "end": 1790196088.9128234,
+    "incident_id": "care-seat-disk-io-load-1",
+    "overlap_group": 53,
+    "source": "data/care/trainticket-collected/care-seat-disk-io-load-1/incident.json",
+    "start": 1790195848.9128234
+  },
+  {
+    "end": 1790217160.0258667,
+    "incident_id": "care-seat-disk-io-load-2",
+    "overlap_group": 4,
+    "source": "data/care/trainticket-collected/care-seat-disk-io-load-2/incident.json",
+    "start": 1790216920.0258667
+  },
+  {
+    "end": 1790202534.6844392,
+    "incident_id": "care-seat-memory-ramp-0",
+    "overlap_group": 93,
+    "source": "data/care/trainticket-collected/care-seat-memory-ramp-0/incident.json",
+    "start": 1790202294.6844392
+  },
+  {
+    "end": 1790209575.9429061,
+    "incident_id": "care-seat-memory-ramp-1",
+    "overlap_group": 83,
+    "source": "data/care/trainticket-collected/care-seat-memory-ramp-1/incident.json",
+    "start": 1790209335.9429061
+  },
+  {
+    "end": 1790209845.564627,
+    "incident_id": "care-seat-memory-ramp-2",
+    "overlap_group": 32,
+    "source": "data/care/trainticket-collected/care-seat-memory-ramp-2/incident.json",
+    "start": 1790209605.564627
+  },
+  {
+    "end": 1790194740.3848572,
+    "incident_id": "care-seat-network-delay-0",
+    "overlap_group": 91,
+    "source": "data/care/trainticket-collected/care-seat-network-delay-0/incident.json",
+    "start": 1790194500.3848572
+  },
+  {
+    "end": 1790201995.0808387,
+    "incident_id": "care-seat-network-delay-1",
+    "overlap_group": 127,
+    "source": "data/care/trainticket-collected/care-seat-network-delay-1/incident.json",
+    "start": 1790201755.0808387
+  },
+  {
+    "end": 1790188836.6206534,
+    "incident_id": "care-seat-network-delay-2",
+    "overlap_group": 57,
+    "source": "data/care/trainticket-collected/care-seat-network-delay-2/incident.json",
+    "start": 1790188596.6206534
+  },
+  {
+    "end": 1790207687.916634,
+    "incident_id": "care-seat-packet-loss-0",
+    "overlap_group": 79,
+    "source": "data/care/trainticket-collected/care-seat-packet-loss-0/incident.json",
+    "start": 1790207447.916634
+  },
+  {
+    "end": 1790186983.9645686,
+    "incident_id": "care-seat-packet-loss-1",
+    "overlap_group": 99,
+    "source": "data/care/trainticket-collected/care-seat-packet-loss-1/incident.json",
+    "start": 1790186743.9645686
+  },
+  {
+    "end": 1790193939.1116366,
+    "incident_id": "care-seat-packet-loss-2",
+    "overlap_group": 20,
+    "source": "data/care/trainticket-collected/care-seat-packet-loss-2/incident.json",
+    "start": 1790193699.1116366
+  },
+  {
+    "end": 1790213901.864761,
+    "incident_id": "care-station-cpu-load-0",
+    "overlap_group": 13,
+    "source": "data/care/trainticket-collected/care-station-cpu-load-0/incident.json",
+    "start": 1790213661.864761
+  },
+  {
+    "end": 1790209307.9183629,
+    "incident_id": "care-station-cpu-load-1",
+    "overlap_group": 30,
+    "source": "data/care/trainticket-collected/care-station-cpu-load-1/incident.json",
+    "start": 1790209067.9183629
+  },
+  {
+    "end": 1790204699.395988,
+    "incident_id": "care-station-cpu-load-2",
+    "overlap_group": 132,
+    "source": "data/care/trainticket-collected/care-station-cpu-load-2/incident.json",
+    "start": 1790204459.395988
+  },
+  {
+    "end": 1790223131.8786905,
+    "incident_id": "care-station-disk-io-load-0",
+    "overlap_group": 100,
+    "source": "data/care/trainticket-collected/care-station-disk-io-load-0/incident.json",
+    "start": 1790222891.8786905
+  },
+  {
+    "end": 1790211724.739569,
+    "incident_id": "care-station-disk-io-load-1",
+    "overlap_group": 33,
+    "source": "data/care/trainticket-collected/care-station-disk-io-load-1/incident.json",
+    "start": 1790211484.739569
+  },
+  {
+    "end": 1790220405.316702,
+    "incident_id": "care-station-disk-io-load-2",
+    "overlap_group": 43,
+    "source": "data/care/trainticket-collected/care-station-disk-io-load-2/incident.json",
+    "start": 1790220165.316702
+  },
+  {
+    "end": 1790214440.877485,
+    "incident_id": "care-station-memory-ramp-0",
+    "overlap_group": 143,
+    "source": "data/care/trainticket-collected/care-station-memory-ramp-0/incident.json",
+    "start": 1790214200.877485
+  },
+  {
+    "end": 1790196358.7649462,
+    "incident_id": "care-station-memory-ramp-1",
+    "overlap_group": 49,
+    "source": "data/care/trainticket-collected/care-station-memory-ramp-1/incident.json",
+    "start": 1790196118.7649462
+  },
+  {
+    "end": 1790219591.730907,
+    "incident_id": "care-station-memory-ramp-2",
+    "overlap_group": 70,
+    "source": "data/care/trainticket-collected/care-station-memory-ramp-2/incident.json",
+    "start": 1790219351.730907
+  },
+  {
+    "end": 1790199846.0852237,
+    "incident_id": "care-station-network-delay-0",
+    "overlap_group": 68,
+    "source": "data/care/trainticket-collected/care-station-network-delay-0/incident.json",
+    "start": 1790199606.0852237
+  },
+  {
+    "end": 1790200381.4126441,
+    "incident_id": "care-station-network-delay-1",
+    "overlap_group": 106,
+    "source": "data/care/trainticket-collected/care-station-network-delay-1/incident.json",
+    "start": 1790200141.4126441
+  },
+  {
+    "end": 1790191251.7727463,
+    "incident_id": "care-station-network-delay-2",
+    "overlap_group": 27,
+    "source": "data/care/trainticket-collected/care-station-network-delay-2/incident.json",
+    "start": 1790191011.7727463
+  },
+  {
+    "end": 1790216888.608193,
+    "incident_id": "care-station-packet-loss-0",
+    "overlap_group": 48,
+    "source": "data/care/trainticket-collected/care-station-packet-loss-0/incident.json",
+    "start": 1790216648.608193
+  },
+  {
+    "end": 1790220693.6055055,
+    "incident_id": "care-station-packet-loss-1",
+    "overlap_group": 149,
+    "source": "data/care/trainticket-collected/care-station-packet-loss-1/incident.json",
+    "start": 1790220453.6055055
+  },
+  {
+    "end": 1790219052.39923,
+    "incident_id": "care-station-packet-loss-2",
+    "overlap_group": 8,
+    "source": "data/care/trainticket-collected/care-station-packet-loss-2/incident.json",
+    "start": 1790218812.39923
+  },
+  {
+    "end": 1790208496.158633,
+    "incident_id": "care-ticketinfo-cpu-load-0",
+    "overlap_group": 23,
+    "source": "data/care/trainticket-collected/care-ticketinfo-cpu-load-0/incident.json",
+    "start": 1790208256.158633
+  },
+  {
+    "end": 1790195284.0429447,
+    "incident_id": "care-ticketinfo-cpu-load-1",
+    "overlap_group": 84,
+    "source": "data/care/trainticket-collected/care-ticketinfo-cpu-load-1/incident.json",
+    "start": 1790195044.0429447
+  },
+  {
+    "end": 1790191784.6876287,
+    "incident_id": "care-ticketinfo-cpu-load-2",
+    "overlap_group": 80,
+    "source": "data/care/trainticket-collected/care-ticketinfo-cpu-load-2/incident.json",
+    "start": 1790191544.6876287
+  },
+  {
+    "end": 1790203072.7059295,
+    "incident_id": "care-ticketinfo-disk-io-load-0",
+    "overlap_group": 67,
+    "source": "data/care/trainticket-collected/care-ticketinfo-disk-io-load-0/incident.json",
+    "start": 1790202832.7059295
+  },
+  {
+    "end": 1790217699.1170588,
+    "incident_id": "care-ticketinfo-disk-io-load-1",
+    "overlap_group": 18,
+    "source": "data/care/trainticket-collected/care-ticketinfo-disk-io-load-1/incident.json",
+    "start": 1790217459.1170588
+  },
+  {
+    "end": 1790195821.3801112,
+    "incident_id": "care-ticketinfo-disk-io-load-2",
+    "overlap_group": 122,
+    "source": "data/care/trainticket-collected/care-ticketinfo-disk-io-load-2/incident.json",
+    "start": 1790195581.3801112
+  },
+  {
+    "end": 1790212011.581786,
+    "incident_id": "care-ticketinfo-memory-ramp-0",
+    "overlap_group": 97,
+    "source": "data/care/trainticket-collected/care-ticketinfo-memory-ramp-0/incident.json",
+    "start": 1790211771.581786
+  },
+  {
+    "end": 1790205237.7414505,
+    "incident_id": "care-ticketinfo-memory-ramp-1",
+    "overlap_group": 1,
+    "source": "data/care/trainticket-collected/care-ticketinfo-memory-ramp-1/incident.json",
+    "start": 1790204997.7414505
+  },
+  {
+    "end": 1790187774.9804895,
+    "incident_id": "care-ticketinfo-memory-ramp-2",
+    "overlap_group": 145,
+    "source": "data/care/trainticket-collected/care-ticketinfo-memory-ramp-2/incident.json",
+    "start": 1790187534.9804895
+  },
+  {
+    "end": 1790197701.4366722,
+    "incident_id": "care-ticketinfo-network-delay-0",
+    "overlap_group": 58,
+    "source": "data/care/trainticket-collected/care-ticketinfo-network-delay-0/incident.json",
+    "start": 1790197461.4366722
+  },
+  {
+    "end": 1790217971.0866504,
+    "incident_id": "care-ticketinfo-network-delay-1",
+    "overlap_group": 22,
+    "source": "data/care/trainticket-collected/care-ticketinfo-network-delay-1/incident.json",
+    "start": 1790217731.0866504
+  },
+  {
+    "end": 1790196897.293077,
+    "incident_id": "care-ticketinfo-network-delay-2",
+    "overlap_group": 113,
+    "source": "data/care/trainticket-collected/care-ticketinfo-network-delay-2/incident.json",
+    "start": 1790196657.293077
+  },
+  {
+    "end": 1790206859.481997,
+    "incident_id": "care-ticketinfo-packet-loss-0",
+    "overlap_group": 19,
+    "source": "data/care/trainticket-collected/care-ticketinfo-packet-loss-0/incident.json",
+    "start": 1790206619.481997
+  },
+  {
+    "end": 1790206046.9818573,
+    "incident_id": "care-ticketinfo-packet-loss-1",
+    "overlap_group": 28,
+    "source": "data/care/trainticket-collected/care-ticketinfo-packet-loss-1/incident.json",
+    "start": 1790205806.9818573
+  },
+  {
+    "end": 1790195010.6673837,
+    "incident_id": "care-ticketinfo-packet-loss-2",
+    "overlap_group": 137,
+    "source": "data/care/trainticket-collected/care-ticketinfo-packet-loss-2/incident.json",
+    "start": 1790194770.6673837
+  },
+  {
+    "end": 1790192053.454835,
+    "incident_id": "care-train-cpu-load-0",
+    "overlap_group": 129,
+    "source": "data/care/trainticket-collected/care-train-cpu-load-0/incident.json",
+    "start": 1790191813.454835
+  },
+  {
+    "end": 1790174482.4657526,
+    "incident_id": "care-train-cpu-load-1",
+    "overlap_group": 39,
+    "source": "data/care/trainticket-collected/care-train-cpu-load-1/incident.json",
+    "start": 1790174242.4657526
+  },
+  {
+    "end": 1790223403.5729868,
+    "incident_id": "care-train-cpu-load-2",
+    "overlap_group": 59,
+    "source": "data/care/trainticket-collected/care-train-cpu-load-2/incident.json",
+    "start": 1790223163.5729868
+  },
+  {
+    "end": 1790189911.0222557,
+    "incident_id": "care-train-disk-io-load-0",
+    "overlap_group": 139,
+    "source": "data/care/trainticket-collected/care-train-disk-io-load-0/incident.json",
+    "start": 1790189671.0222557
+  },
+  {
+    "end": 1790209034.9288096,
+    "incident_id": "care-train-disk-io-load-1",
+    "overlap_group": 72,
+    "source": "data/care/trainticket-collected/care-train-disk-io-load-1/incident.json",
+    "start": 1790208794.9288096
+  },
+  {
+    "end": 1790201725.1764705,
+    "incident_id": "care-train-disk-io-load-2",
+    "overlap_group": 40,
+    "source": "data/care/trainticket-collected/care-train-disk-io-load-2/incident.json",
+    "start": 1790201485.1764705
+  },
+  {
+    "end": 1790172146.5592046,
+    "incident_id": "care-train-memory-ramp-0",
+    "overlap_group": 24,
+    "source": "data/care/trainticket-collected/care-train-memory-ramp-0/incident.json",
+    "start": 1790171906.5592046
+  },
+  {
+    "end": 1790197164.4355178,
+    "incident_id": "care-train-memory-ramp-1",
+    "overlap_group": 133,
+    "source": "data/care/trainticket-collected/care-train-memory-ramp-1/incident.json",
+    "start": 1790196924.4355178
+  },
+  {
+    "end": 1790186720.974848,
+    "incident_id": "care-train-memory-ramp-2",
+    "overlap_group": 78,
+    "source": "data/care/trainticket-collected/care-train-memory-ramp-2/incident.json",
+    "start": 1790186480.974848
+  },
+  {
+    "end": 1790194472.8980596,
+    "incident_id": "care-train-network-delay-0",
+    "overlap_group": 86,
+    "source": "data/care/trainticket-collected/care-train-network-delay-0/incident.json",
+    "start": 1790194232.8980596
+  },
+  {
+    "end": 1790192320.930989,
+    "incident_id": "care-train-network-delay-1",
+    "overlap_group": 118,
+    "source": "data/care/trainticket-collected/care-train-network-delay-1/incident.json",
+    "start": 1790192080.930989
+  },
+  {
+    "end": 1790211456.8617163,
+    "incident_id": "care-train-network-delay-2",
+    "overlap_group": 135,
+    "source": "data/care/trainticket-collected/care-train-network-delay-2/incident.json",
+    "start": 1790211216.8617163
+  },
+  {
+    "end": 1790199575.5577343,
+    "incident_id": "care-train-packet-loss-0",
+    "overlap_group": 130,
+    "source": "data/care/trainticket-collected/care-train-packet-loss-0/incident.json",
+    "start": 1790199335.5577343
+  },
+  {
+    "end": 1790223672.8416846,
+    "incident_id": "care-train-packet-loss-1",
+    "overlap_group": 110,
+    "source": "data/care/trainticket-collected/care-train-packet-loss-1/incident.json",
+    "start": 1790223432.8416846
+  },
+  {
+    "end": 1790218509.6984253,
+    "incident_id": "care-train-packet-loss-2",
+    "overlap_group": 104,
+    "source": "data/care/trainticket-collected/care-train-packet-loss-2/incident.json",
+    "start": 1790218269.6984253
+  },
+  {
+    "end": 1790187246.933936,
+    "incident_id": "care-travel-cpu-load-0",
+    "overlap_group": 44,
+    "source": "data/care/trainticket-collected/care-travel-cpu-load-0/incident.json",
+    "start": 1790187006.933936
+  },
+  {
+    "end": 1790218239.945544,
+    "incident_id": "care-travel-cpu-load-1",
+    "overlap_group": 119,
+    "source": "data/care/trainticket-collected/care-travel-cpu-load-1/incident.json",
+    "start": 1790217999.945544
+  },
+  {
+    "end": 1790200112.7863066,
+    "incident_id": "care-travel-cpu-load-2",
+    "overlap_group": 114,
+    "source": "data/care/trainticket-collected/care-travel-cpu-load-2/incident.json",
+    "start": 1790199872.7863066
+  },
+  {
+    "end": 1790214170.9218946,
+    "incident_id": "care-travel-disk-io-load-0",
+    "overlap_group": 123,
+    "source": "data/care/trainticket-collected/care-travel-disk-io-load-0/incident.json",
+    "start": 1790213930.9218946
+  },
+  {
+    "end": 1790214977.8830974,
+    "incident_id": "care-travel-disk-io-load-1",
+    "overlap_group": 108,
+    "source": "data/care/trainticket-collected/care-travel-disk-io-load-1/incident.json",
+    "start": 1790214737.8830974
+  },
+  {
+    "end": 1790200647.530416,
+    "incident_id": "care-travel-disk-io-load-2",
+    "overlap_group": 117,
+    "source": "data/care/trainticket-collected/care-travel-disk-io-load-2/incident.json",
+    "start": 1790200407.530416
+  },
+  {
+    "end": 1790190984.7111785,
+    "incident_id": "care-travel-memory-ramp-0",
+    "overlap_group": 73,
+    "source": "data/care/trainticket-collected/care-travel-memory-ramp-0/incident.json",
+    "start": 1790190744.7111785
+  },
+  {
+    "end": 1790198769.985287,
+    "incident_id": "care-travel-memory-ramp-1",
+    "overlap_group": 82,
+    "source": "data/care/trainticket-collected/care-travel-memory-ramp-1/incident.json",
+    "start": 1790198529.985287
+  },
+  {
+    "end": 1790212280.5739574,
+    "incident_id": "care-travel-memory-ramp-2",
+    "overlap_group": 7,
+    "source": "data/care/trainticket-collected/care-travel-memory-ramp-2/incident.json",
+    "start": 1790212040.5739574
+  },
+  {
+    "end": 1790223945.3231547,
+    "incident_id": "care-travel-network-delay-0",
+    "overlap_group": 96,
+    "source": "data/care/trainticket-collected/care-travel-network-delay-0/incident.json",
+    "start": 1790223705.3231547
+  },
+  {
+    "end": 1790221232.0882277,
+    "incident_id": "care-travel-network-delay-1",
+    "overlap_group": 124,
+    "source": "data/care/trainticket-collected/care-travel-network-delay-1/incident.json",
+    "start": 1790220992.0882277
+  },
+  {
+    "end": 1790221502.5858176,
+    "incident_id": "care-travel-network-delay-2",
+    "overlap_group": 76,
+    "source": "data/care/trainticket-collected/care-travel-network-delay-2/incident.json",
+    "start": 1790221262.5858176
+  },
+  {
+    "end": 1790203626.7665412,
+    "incident_id": "care-travel-packet-loss-0",
+    "overlap_group": 55,
+    "source": "data/care/trainticket-collected/care-travel-packet-loss-0/incident.json",
+    "start": 1790203386.7665412
+  },
+  {
+    "end": 1790210649.6373293,
+    "incident_id": "care-travel-packet-loss-1",
+    "overlap_group": 125,
+    "source": "data/care/trainticket-collected/care-travel-packet-loss-1/incident.json",
+    "start": 1790210409.6373293
+  },
+  {
+    "end": 1790214709.9082453,
+    "incident_id": "care-travel-packet-loss-2",
+    "overlap_group": 36,
+    "source": "data/care/trainticket-collected/care-travel-packet-loss-2/incident.json",
+    "start": 1790214469.9082453
+  },
+  {
+    "end": 1790211186.7514348,
+    "incident_id": "care-travel2-cpu-load-0",
+    "overlap_group": 51,
+    "source": "data/care/trainticket-collected/care-travel2-cpu-load-0/incident.json",
+    "start": 1790210946.7514348
+  },
+  {
+    "end": 1790195553.1256983,
+    "incident_id": "care-travel2-cpu-load-1",
+    "overlap_group": 103,
+    "source": "data/care/trainticket-collected/care-travel2-cpu-load-1/incident.json",
+    "start": 1790195313.1256983
+  },
+  {
+    "end": 1790199037.8338032,
+    "incident_id": "care-travel2-cpu-load-2",
+    "overlap_group": 31,
+    "source": "data/care/trainticket-collected/care-travel2-cpu-load-2/incident.json",
+    "start": 1790198797.8338032
+  },
+  {
+    "end": 1790215793.8298123,
+    "incident_id": "care-travel2-disk-io-load-0",
+    "overlap_group": 94,
+    "source": "data/care/trainticket-collected/care-travel2-disk-io-load-0/incident.json",
+    "start": 1790215553.8298123
+  },
+  {
+    "end": 1790224216.0833533,
+    "incident_id": "care-travel2-disk-io-load-1",
+    "overlap_group": 87,
+    "source": "data/care/trainticket-collected/care-travel2-disk-io-load-1/incident.json",
+    "start": 1790223976.0833533
+  },
+  {
+    "end": 1790207405.04043,
+    "incident_id": "care-travel2-disk-io-load-2",
+    "overlap_group": 25,
+    "source": "data/care/trainticket-collected/care-travel2-disk-io-load-2/incident.json",
+    "start": 1790207165.04043
+  },
+  {
+    "end": 1790188573.612611,
+    "incident_id": "care-travel2-memory-ramp-0",
+    "overlap_group": 85,
+    "source": "data/care/trainticket-collected/care-travel2-memory-ramp-0/incident.json",
+    "start": 1790188333.612611
+  },
+  {
+    "end": 1790216080.171939,
+    "incident_id": "care-travel2-memory-ramp-1",
+    "overlap_group": 98,
+    "source": "data/care/trainticket-collected/care-travel2-memory-ramp-1/incident.json",
+    "start": 1790215840.171939
+  },
+  {
+    "end": 1790217430.263492,
+    "incident_id": "care-travel2-memory-ramp-2",
+    "overlap_group": 10,
+    "source": "data/care/trainticket-collected/care-travel2-memory-ramp-2/incident.json",
+    "start": 1790217190.263492
+  },
+  {
+    "end": 1790203359.4672575,
+    "incident_id": "care-travel2-network-delay-0",
+    "overlap_group": 60,
+    "source": "data/care/trainticket-collected/care-travel2-network-delay-0/incident.json",
+    "start": 1790203119.4672575
+  },
+  {
+    "end": 1790222045.2024965,
+    "incident_id": "care-travel2-network-delay-1",
+    "overlap_group": 146,
+    "source": "data/care/trainticket-collected/care-travel2-network-delay-1/incident.json",
+    "start": 1790221805.2024965
+  },
+  {
+    "end": 1790220962.840882,
+    "incident_id": "care-travel2-network-delay-2",
+    "overlap_group": 136,
+    "source": "data/care/trainticket-collected/care-travel2-network-delay-2/incident.json",
+    "start": 1790220722.840882
+  },
+  {
+    "end": 1790208765.6608818,
+    "incident_id": "care-travel2-packet-loss-0",
+    "overlap_group": 61,
+    "source": "data/care/trainticket-collected/care-travel2-packet-loss-0/incident.json",
+    "start": 1790208525.6608818
+  },
+  {
+    "end": 1790199307.732095,
+    "incident_id": "care-travel2-packet-loss-1",
+    "overlap_group": 107,
+    "source": "data/care/trainticket-collected/care-travel2-packet-loss-1/incident.json",
+    "start": 1790199067.732095
+  },
+  {
+    "end": 1790222589.5612688,
+    "incident_id": "care-travel2-packet-loss-2",
+    "overlap_group": 21,
+    "source": "data/care/trainticket-collected/care-travel2-packet-loss-2/incident.json",
+    "start": 1790222349.5612688
+  }
+]

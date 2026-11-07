@@ -1,0 +1,250 @@
+{
+  "aiops": {
+    "Eadro": {
+      "configuration": {
+        "attention_heads": 4,
+        "batch_size": 16,
+        "dropout": 0.2,
+        "hidden_dim": 32,
+        "learning_rate": 0.001,
+        "max_epochs": 120,
+        "patience": 15,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/Eadro/seed-42/result.json",
+      "source_sha256": "e66b5025c0a155ea81b0ef52614e966b987b4ec6863d996ac80364945291c474"
+    },
+    "Eadro+MD": {
+      "configuration": {
+        "attention_heads": 4,
+        "batch_size": 16,
+        "dropout": 0.2,
+        "hidden_dim": 32,
+        "learning_rate": 0.001,
+        "max_epochs": 120,
+        "patience": 15,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/Eadro/seed-42/result.json",
+      "source_sha256": "e66b5025c0a155ea81b0ef52614e966b987b4ec6863d996ac80364945291c474"
+    },
+    "LogFaultFlagger": {
+      "configuration": {
+        "C": 10.0,
+        "class_weight": "balanced",
+        "max_iter": 2000
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/LogFaultFlagger/run-0/result.json",
+      "source_sha256": "2483999aa6ecce7fe192334116d83faa33832e4cd8e62cc97dd083c95a22f0ab"
+    },
+    "MULAN": {
+      "configuration": {
+        "batch_size": 16,
+        "graph_mix": 0.5,
+        "hidden_dim": 32,
+        "learning_rate": 0.001,
+        "max_epochs": 120,
+        "patience": 15,
+        "temperature": 0.1,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/MULAN/seed-42/result.json",
+      "source_sha256": "8ae1a61597f715b931a3bf3d72088617f664e8aa288a2dd9b43bc0f41d5fabd9"
+    },
+    "MULAN+MD": {
+      "configuration": {
+        "batch_size": 16,
+        "graph_mix": 0.5,
+        "hidden_dim": 32,
+        "learning_rate": 0.001,
+        "max_epochs": 120,
+        "patience": 15,
+        "temperature": 0.1,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/MULAN/seed-42/result.json",
+      "source_sha256": "8ae1a61597f715b931a3bf3d72088617f664e8aa288a2dd9b43bc0f41d5fabd9"
+    },
+    "MicroRCA": {
+      "configuration": {
+        "damping": 0.95,
+        "direct_mix": 0.75,
+        "reverse": false
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/MicroRCA/run-0/result.json",
+      "source_sha256": "073c93f0e2e534ae0c6fd118563ac7adf9a0b9ca242c91ede73f4d9eefef7f16"
+    },
+    "MicroRank": {
+      "configuration": {
+        "anomaly_quantile": 0.95,
+        "damping": 0.65,
+        "spectrum": "ochiai"
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/MicroRank/run-0/result.json",
+      "source_sha256": "cbad53bdfb50d6ce4273dfc0580fcfe1d3931295ace786900dfcfcb397712d83"
+    },
+    "MicroScope": {
+      "configuration": {
+        "anomaly_threshold": 2.0,
+        "damping": 0.95,
+        "direct_mix": 0.75,
+        "reverse": false
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/MicroScope/run-0/result.json",
+      "source_sha256": "ee1f1f47ae198dabd5c613610e28c9cc145a2918449829d36e1d8f37118ac58a"
+    },
+    "Nezha": {
+      "configuration": {
+        "event_threshold": 2.0,
+        "graph_mix": 0.0,
+        "service_aggregation": "max"
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/Nezha/run-0/result.json",
+      "source_sha256": "4f35654e7d02aaaee04d2384d138ec256bf144685c25d0dcd58dfb05a0cfc104"
+    },
+    "SBLD": {
+      "configuration": {
+        "active_threshold": 1.0,
+        "formula": "tarantula",
+        "service_aggregation": "max"
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/SBLD/run-0/result.json",
+      "source_sha256": "2aa3221da80612983c00389ad7c18e84ca8457b1bcd16315fa594dfc5b5007c7"
+    },
+    "TraceAnomaly": {
+      "configuration": {
+        "aggregation": "q90",
+        "epochs": 80,
+        "hidden_dim": 16,
+        "latent_dim": 1,
+        "learning_rate": 0.001
+      },
+      "source": "artifacts/care/fse2027-baselines/aiops2022/TraceAnomaly/seed-42/result.json",
+      "source_sha256": "04cbeb300808d571d41c9c012fd7c54a9c6ba2147050286291e0b595ece84b7a"
+    }
+  },
+  "tt": {
+    "Eadro": {
+      "configuration": {
+        "attention_heads": 4,
+        "batch_size": 16,
+        "dropout": 0.4,
+        "hidden_dim": 32,
+        "learning_rate": 0.003,
+        "max_epochs": 120,
+        "patience": 15,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/Eadro/seed-42/result.json",
+      "source_sha256": "7d009bfc0020e43d4b88cdab093232263f2352560503db197bde9d3be3421a6e"
+    },
+    "Eadro+MD": {
+      "configuration": {
+        "attention_heads": 4,
+        "batch_size": 16,
+        "dropout": 0.4,
+        "hidden_dim": 32,
+        "learning_rate": 0.003,
+        "max_epochs": 120,
+        "patience": 15,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/Eadro/seed-42/result.json",
+      "source_sha256": "7d009bfc0020e43d4b88cdab093232263f2352560503db197bde9d3be3421a6e"
+    },
+    "LogFaultFlagger": {
+      "configuration": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "max_iter": 2000
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/LogFaultFlagger/run-0/result.json",
+      "source_sha256": "2ff93ebb374e5f5364e87e2530f7d2d50cb1b17e27f96220eaa2789c30806bff"
+    },
+    "MULAN": {
+      "configuration": {
+        "batch_size": 16,
+        "graph_mix": 0.25,
+        "hidden_dim": 32,
+        "learning_rate": 0.001,
+        "max_epochs": 120,
+        "patience": 15,
+        "temperature": 0.1,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/MULAN/seed-42/result.json",
+      "source_sha256": "78bfdc8c19ae242e10b7617ffab8086cb1c378cf5750b708edbc0fb8fa624fbc"
+    },
+    "MULAN+MD": {
+      "configuration": {
+        "batch_size": 16,
+        "graph_mix": 0.25,
+        "hidden_dim": 32,
+        "learning_rate": 0.001,
+        "max_epochs": 120,
+        "patience": 15,
+        "temperature": 0.1,
+        "weight_decay": 0.0001
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/MULAN/seed-42/result.json",
+      "source_sha256": "78bfdc8c19ae242e10b7617ffab8086cb1c378cf5750b708edbc0fb8fa624fbc"
+    },
+    "MicroRCA": {
+      "configuration": {
+        "damping": 0.95,
+        "direct_mix": 0.75,
+        "reverse": true
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/MicroRCA/run-0/result.json",
+      "source_sha256": "835d463a44c5987c6926e919e59c2ea240ebf512a65151884870ac1ed42fc646"
+    },
+    "MicroRank": {
+      "configuration": {
+        "anomaly_quantile": 0.75,
+        "damping": 0.65,
+        "spectrum": "tarantula"
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/MicroRank/run-0/result.json",
+      "source_sha256": "7d8bc782e69273ed3ae19a3b657af25a219814907509eb03fe7ef396b8e73dda"
+    },
+    "MicroScope": {
+      "configuration": {
+        "anomaly_threshold": 2.0,
+        "damping": 0.65,
+        "direct_mix": 0.25,
+        "reverse": true
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/MicroScope/run-0/result.json",
+      "source_sha256": "3a6c3c501a6da049fe609b4abcf8abe9d4b2bd2caf4a23a0a18b699dad192385"
+    },
+    "Nezha": {
+      "configuration": {
+        "event_threshold": 1.5,
+        "graph_mix": 0.0,
+        "service_aggregation": "max"
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/Nezha/run-0/result.json",
+      "source_sha256": "3d9714670bb3b5cd86b53ac600462340268791baa7b1d15359feae77629006c0"
+    },
+    "SBLD": {
+      "configuration": {
+        "active_threshold": 1.0,
+        "formula": "tarantula",
+        "service_aggregation": "sum"
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/SBLD/run-0/result.json",
+      "source_sha256": "e7833716dd553ee90810d23cf5ef6abbd85170278579d20a0d4e63d9feca721f"
+    },
+    "TraceAnomaly": {
+      "configuration": {
+        "aggregation": "mean",
+        "epochs": 80,
+        "hidden_dim": 16,
+        "latent_dim": 1,
+        "learning_rate": 0.001
+      },
+      "source": "artifacts/care/fse2027-baselines/trainticket/TraceAnomaly/seed-42/result.json",
+      "source_sha256": "b001b7e7cc602e70768fc8c8641349b3d759f0bd041aa6d4993122150930a4c6"
+    }
+  }
+}

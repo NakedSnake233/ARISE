@@ -1,0 +1,452 @@
+[
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_000",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_001",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_002",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_003",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_004",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_005",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_006",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_007",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_008",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_009",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_010",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_011",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_012",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_013",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_014",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_015",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_016",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_017",
+    "root_service": "ts-auth-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_018",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_019",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_020",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_021",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_022",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_023",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_024",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_025",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_026",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_027",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_028",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_029",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_030",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_031",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_032",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_033",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_034",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_035",
+    "root_service": "ts-order-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_036",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_037",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_038",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_039",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_040",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_041",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_042",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_043",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_044",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_045",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_046",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_047",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_048",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_049",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_050",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_051",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_052",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_053",
+    "root_service": "ts-route-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_054",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_055",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_056",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_057",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_058",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_059",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_060",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_061",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_062",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_063",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_064",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_065",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_066",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_067",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_068",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_069",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_070",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_071",
+    "root_service": "ts-train-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_072",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_073",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_tt:event_074",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_075",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_076",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_tt:event_077",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_078",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_079",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_tt:event_080",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_081",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_082",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_tt:event_083",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_084",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_085",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_tt:event_086",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_087",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_088",
+    "root_service": "ts-travel-service"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_tt:event_089",
+    "root_service": "ts-travel-service"
+  }
+]

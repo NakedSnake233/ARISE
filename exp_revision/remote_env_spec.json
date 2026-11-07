@@ -1,0 +1,26 @@
+{
+  "base": "existing /workspace/anaconda3/envs/aris (Python 3.10.4, torch 2.6.0+cu124)",
+  "system_pkgs": [],
+  "pip_phases": [
+    ["numpy==1.26.4", "--no-deps"],
+    ["scikit-learn==1.7.2", "--no-deps"],
+    ["threadpoolctl==3.7.0", "--no-deps"]
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4"
+  },
+  "run_commands": ["python -m venv --system-site-packages /workspace/arise-exp-revision-20260929/.venv"],
+  "weight_dirs": {},
+  "smoke": {
+    "import_names": ["torch", "numpy", "scipy", "sklearn", "pandas", "pyarrow"],
+    "gpu_tests": [
+      {
+        "cmd": "python -c 'import torch; torch.manual_seed(0); x=torch.randn(8,8,device=\"cuda\"); print(\"WITNESS\", (x@x).shape, torch.cuda.get_device_name())'",
+        "expect": "^WITNESS torch.Size([8, 8]) NVIDIA GeForce RTX 4090 D$"
+      }
+    ],
+    "cli_checks": ["nvidia-smi"]
+  }
+}

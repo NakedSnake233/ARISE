@@ -1,0 +1,14 @@
+{
+  "method_name": "CIRCA+rank-prune",
+  "algorithm": "unchanged official RCAEval CIRCA",
+  "selection_scope": "one incident's observed metric view after the shared modality mask; no labels",
+  "column_order": "round-robin over metadata service order, preserving each service's source metric order",
+  "drop_invalid_constant": "same complete/nonconstant filter as the existing official worker",
+  "correlation_eigenvalue_ratio_min": 1e-8,
+  "maximum_columns": "min(number of varying metrics, number of observed time rows minus 2)",
+  "sample_cap_reason": "positive n-|conditioning set|-3 for every possible Fisher-Z test among retained variables",
+  "selection": "greedily retain a candidate only if the centered unit-norm columns' Gram matrix has min_eigenvalue > 1e-8 * max_eigenvalue",
+  "metric_values_to_algorithm": "original retained values, times and onset; no jitter, interpolation or value transformation",
+  "ranking": "original metric-to-service adapter; removed/unranked services retained at ranking tail",
+  "authorization": "docs/circa_preprocessing_authorization.json"
+}

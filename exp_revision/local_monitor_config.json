@@ -1,0 +1,32 @@
+{
+  "backend": "local",
+  "collection_max_attempts": 2,
+  "collection_max_seconds": 300,
+  "interval_minutes": 20,
+  "recovery": "original immutable attempts and compute/storage limits",
+  "schedule": "*/20 * * * *",
+  "scope": "resume local TT context matrix; collect complete context and ARISE S0",
+  "source_sha256": {
+    "exp_revision/aggregate_arise.py": "e4d5d046e1f4686dfac0eedfa581fbce07572a4ff2d077f1390fc08c028398e6",
+    "exp_revision/aggregate_context.py": "f76dd98f8bb29a0f625e8e406fe9bf7524072e2bf6c770e4bf046d6ac4697745",
+    "exp_revision/common.py": "944e691952e88f179dba72f8750b123fe0af0d9be01239bdfa9aa6700e93f7d4",
+    "exp_revision/context_local_resume.py": "517ce0a511cb445ada82632695e4cd5dd88858e2d8c477e97bb885199fe13e49",
+    "exp_revision/context_namespace_resume.py": "5765febea073925916bb2cfc4338377ce1d55fa5ff57498109f2590e26e1c739",
+    "exp_revision/context_queue.py": "a276b637c0bf92ad7dd52b91ce433e5c6b1fa325f2c58a4580c91461a1c3676f",
+    "exp_revision/disk_guard.py": "a0d5cd9a1979ec917504f88084e9f3eb6a210975186fb08a1990e099a0ab577e",
+    "exp_revision/disk_guard_local.py": "26c96ed9d165139b3ab959a9722b6d7e16e30eb04c62a56e6e3877997b8a9e4e",
+    "exp_revision/evaluate_context.py": "afbebcad806b0e9c3386929fb226597b7873429d83a0e38d97a08ab8e914d592",
+    "exp_revision/evidence_queue.py": "f6b23b9cc56db5e6225e9dd0ad6279e829a4a37e12d0162cf1656a6c5e0ada57",
+    "exp_revision/fold_data.py": "1cd19e90e2a8a435d585ff30ac64043e03746b42935fbbfd250907fc39255508",
+    "exp_revision/local_collect.py": "83795204d93bcdec052be1a1aee4e033a75a188b1266483919bf78a0da33cc7d",
+    "exp_revision/local_env_spec.json": "41522a7c2efe5f35d22aecc68528a5fdb67b1461e92b59407eeff2787b1bd819",
+    "exp_revision/local_monitor.py": "326f0974e49166204e5ff1781da77845398fb65d14644cdbd39caedc2e054be8",
+    "exp_revision/metrics.py": "c3cdfc2653b0d8fd72eabf3a107d82a79b6b82d44894984a39721d894f065815",
+    "exp_revision/train_evidence.py": "493c01584d7bd8b8ec79c73d909c469b35382b96e3d19f44cc0647e265295753",
+    "manifests/tt_context_full.json": "bb883253bcdb5b681cf446b9d4b7bd227172d9b7286ec3453c6bb556236d841f",
+    "manifests/tt_evidence_full.json": "009ad19d54ff0b54eef82e8192b869f2ea6c73c6dc9e32f60498f89839930854",
+    "scripts/care/evidence_reranker.py": "9c4b867e216584edc60880c67fa1b68b97c8540cd999898f5dfc04b76f6ded6d",
+    "scripts/care/robust_evidence.py": "f9983b0b584a3eff623da69eba541e0e65c7623e4251ece22509ddbdb3eb2a3b",
+    "scripts/care/train_base.py": "94c631521935d74543bf453e5eedfe781098d790d043329caa9aa088327aaee8"
+  }
+}

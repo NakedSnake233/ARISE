@@ -1,0 +1,13 @@
+{
+  "interpreter": "cache/exp_runtime/venv/bin/python",
+  "python": "3.10.16",
+  "drain3": "0.9.11",
+  "compiler": "/usr/bin/cc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0",
+  "flags": ["-O3", "-shared", "-fPIC"],
+  "source": "exp_revision/drain_kernel.c",
+  "artifact_directory": "cache/re2_drain_kernel",
+  "scope": "replace default unlimited Drain fast_match candidate/token loops only",
+  "unchanged": ["tree search", "candidate order", "Python string equality", "similarity threshold", "wildcards", "parameter-count ties", "cluster update", "log corpus/order", "features"],
+  "seeded_witness": "seed2027 synthetic varied/wildcard/missing-candidate/tie cases and actual first RE2-SS training event log-order agreement",
+  "ready_requires": "author witness and independent fresh agent following .aris/compute/local_drain.md"
+}

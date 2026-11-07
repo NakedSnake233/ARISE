@@ -1,0 +1,4 @@
+# Recorded compatibility environment for the baseline adapter runs.
+numpy==1.24.3
+scikit-learn==1.3.0
+torch==1.8.1

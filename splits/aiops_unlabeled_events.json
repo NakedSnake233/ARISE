@@ -1,0 +1,898 @@
+[
+  {
+    "end": 1647736991,
+    "incident_id": "2022-03-20-cloudbed1:1647736751:cartservice",
+    "overlap_group": 2,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647736571
+  },
+  {
+    "end": 1647738786,
+    "incident_id": "2022-03-20-cloudbed1:1647738546:shippingservice-1",
+    "overlap_group": 108,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647738366
+  },
+  {
+    "end": 1647741539,
+    "incident_id": "2022-03-20-cloudbed1:1647741299:emailservice-0",
+    "overlap_group": 70,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647741119
+  },
+  {
+    "end": 1647746636,
+    "incident_id": "2022-03-20-cloudbed1:1647746396:shippingservice-1",
+    "overlap_group": 56,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647746216
+  },
+  {
+    "end": 1647747566,
+    "incident_id": "2022-03-20-cloudbed1:1647747326:recommendationservice",
+    "overlap_group": 107,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647747146
+  },
+  {
+    "end": 1647757126,
+    "incident_id": "2022-03-20-cloudbed1:1647756886:recommendationservice2-0",
+    "overlap_group": 66,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647756706
+  },
+  {
+    "end": 1647757635,
+    "incident_id": "2022-03-20-cloudbed1:1647757395:shippingservice",
+    "overlap_group": 100,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647757215
+  },
+  {
+    "end": 1647759880,
+    "incident_id": "2022-03-20-cloudbed1:1647759640:paymentservice",
+    "overlap_group": 78,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647759460
+  },
+  {
+    "end": 1647764043,
+    "incident_id": "2022-03-20-cloudbed1:1647763803:shippingservice-1",
+    "overlap_group": 25,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647763623
+  },
+  {
+    "end": 1647765344,
+    "incident_id": "2022-03-20-cloudbed1:1647765104:currencyservice-0",
+    "overlap_group": 103,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647764924
+  },
+  {
+    "end": 1647774573,
+    "incident_id": "2022-03-20-cloudbed1:1647774333:frontend-2",
+    "overlap_group": 124,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647774153
+  },
+  {
+    "end": 1647782421,
+    "incident_id": "2022-03-20-cloudbed1:1647782181:emailservice",
+    "overlap_group": 61,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647782001
+  },
+  {
+    "end": 1647789206,
+    "incident_id": "2022-03-20-cloudbed1:1647788966:checkoutservice-2",
+    "overlap_group": 75,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647788786
+  },
+  {
+    "end": 1647790450,
+    "incident_id": "2022-03-20-cloudbed1:1647790210:productcatalogservice",
+    "overlap_group": 115,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-20.csv",
+    "start": 1647790030
+  },
+  {
+    "end": 1647736747,
+    "incident_id": "2022-03-20-cloudbed2:1647736507:recommendationservice2-0",
+    "overlap_group": 11,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647736327
+  },
+  {
+    "end": 1647739255,
+    "incident_id": "2022-03-20-cloudbed2:1647739015:cartservice2-0",
+    "overlap_group": 22,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647738835
+  },
+  {
+    "end": 1647740509,
+    "incident_id": "2022-03-20-cloudbed2:1647740269:productcatalogservice",
+    "overlap_group": 41,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647740089
+  },
+  {
+    "end": 1647743874,
+    "incident_id": "2022-03-20-cloudbed2:1647743634:currencyservice-0",
+    "overlap_group": 34,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647743454
+  },
+  {
+    "end": 1647748588,
+    "incident_id": "2022-03-20-cloudbed2:1647748348:adservice-1",
+    "overlap_group": 69,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647748168
+  },
+  {
+    "end": 1647749465,
+    "incident_id": "2022-03-20-cloudbed2:1647749225:currencyservice",
+    "overlap_group": 76,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647749045
+  },
+  {
+    "end": 1647758219,
+    "incident_id": "2022-03-20-cloudbed2:1647757979:emailservice-1",
+    "overlap_group": 68,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647757799
+  },
+  {
+    "end": 1647759971,
+    "incident_id": "2022-03-20-cloudbed2:1647759731:checkoutservice-0",
+    "overlap_group": 53,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647759551
+  },
+  {
+    "end": 1647761501,
+    "incident_id": "2022-03-20-cloudbed2:1647761261:emailservice",
+    "overlap_group": 62,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647761081
+  },
+  {
+    "end": 1647781372,
+    "incident_id": "2022-03-20-cloudbed2:1647781132:productcatalogservice",
+    "overlap_group": 125,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647780952
+  },
+  {
+    "end": 1647786231,
+    "incident_id": "2022-03-20-cloudbed2:1647785991:recommendationservice",
+    "overlap_group": 126,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-20.csv",
+    "start": 1647785811
+  },
+  {
+    "end": 1647736362,
+    "incident_id": "2022-03-20-cloudbed3:1647736122:cartservice",
+    "overlap_group": 21,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647735942
+  },
+  {
+    "end": 1647740904,
+    "incident_id": "2022-03-20-cloudbed3:1647740664:emailservice-1",
+    "overlap_group": 5,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647740484
+  },
+  {
+    "end": 1647742654,
+    "incident_id": "2022-03-20-cloudbed3:1647742414:adservice-1",
+    "overlap_group": 120,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647742234
+  },
+  {
+    "end": 1647745715,
+    "incident_id": "2022-03-20-cloudbed3:1647745475:cartservice",
+    "overlap_group": 4,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647745295
+  },
+  {
+    "end": 1647753240,
+    "incident_id": "2022-03-20-cloudbed3:1647753000:productcatalogservice-0",
+    "overlap_group": 24,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647752820
+  },
+  {
+    "end": 1647754432,
+    "incident_id": "2022-03-20-cloudbed3:1647754192:cartservice2-0",
+    "overlap_group": 3,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647754012
+  },
+  {
+    "end": 1647756052,
+    "incident_id": "2022-03-20-cloudbed3:1647755812:checkoutservice",
+    "overlap_group": 50,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647755632
+  },
+  {
+    "end": 1647765362,
+    "incident_id": "2022-03-20-cloudbed3:1647765122:cartservice",
+    "overlap_group": 44,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647764942
+  },
+  {
+    "end": 1647770290,
+    "incident_id": "2022-03-20-cloudbed3:1647770050:shippingservice",
+    "overlap_group": 57,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647769870
+  },
+  {
+    "end": 1647777511,
+    "incident_id": "2022-03-20-cloudbed3:1647777271:currencyservice-1",
+    "overlap_group": 31,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647777091
+  },
+  {
+    "end": 1647779737,
+    "incident_id": "2022-03-20-cloudbed3:1647779497:frontend-0",
+    "overlap_group": 123,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647779317
+  },
+  {
+    "end": 1647783768,
+    "incident_id": "2022-03-20-cloudbed3:1647783528:adservice-1",
+    "overlap_group": 9,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-20.csv",
+    "start": 1647783348
+  },
+  {
+    "end": 1647794485,
+    "incident_id": "2022-03-21-cloudbed1:1647794245:cartservice",
+    "overlap_group": 14,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647794065
+  },
+  {
+    "end": 1647797070,
+    "incident_id": "2022-03-21-cloudbed1:1647796830:productcatalogservice-2",
+    "overlap_group": 90,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647796650
+  },
+  {
+    "end": 1647808604,
+    "incident_id": "2022-03-21-cloudbed1:1647808364:cartservice",
+    "overlap_group": 51,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647808184
+  },
+  {
+    "end": 1647816298,
+    "incident_id": "2022-03-21-cloudbed1:1647816058:currencyservice-0",
+    "overlap_group": 45,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647815878
+  },
+  {
+    "end": 1647819056,
+    "incident_id": "2022-03-21-cloudbed1:1647818816:adservice2-0",
+    "overlap_group": 87,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647818636
+  },
+  {
+    "end": 1647820742,
+    "incident_id": "2022-03-21-cloudbed1:1647820502:productcatalogservice-0",
+    "overlap_group": 46,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647820322
+  },
+  {
+    "end": 1647822207,
+    "incident_id": "2022-03-21-cloudbed1:1647821967:shippingservice-1",
+    "overlap_group": 65,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647821787
+  },
+  {
+    "end": 1647825025,
+    "incident_id": "2022-03-21-cloudbed1:1647824785:productcatalogservice",
+    "overlap_group": 58,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647824605
+  },
+  {
+    "end": 1647826230,
+    "incident_id": "2022-03-21-cloudbed1:1647825990:checkoutservice",
+    "overlap_group": 38,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647825810
+  },
+  {
+    "end": 1647827877,
+    "incident_id": "2022-03-21-cloudbed1:1647827637:shippingservice",
+    "overlap_group": 60,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647827457
+  },
+  {
+    "end": 1647832898,
+    "incident_id": "2022-03-21-cloudbed1:1647832658:shippingservice",
+    "overlap_group": 86,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647832478
+  },
+  {
+    "end": 1647834270,
+    "incident_id": "2022-03-21-cloudbed1:1647834030:frontend",
+    "overlap_group": 121,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647833850
+  },
+  {
+    "end": 1647835715,
+    "incident_id": "2022-03-21-cloudbed1:1647835475:recommendationservice-2",
+    "overlap_group": 19,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647835295
+  },
+  {
+    "end": 1647836561,
+    "incident_id": "2022-03-21-cloudbed1:1647836321:productcatalogservice",
+    "overlap_group": 83,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647836141
+  },
+  {
+    "end": 1647839045,
+    "incident_id": "2022-03-21-cloudbed1:1647838805:paymentservice",
+    "overlap_group": 48,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647838625
+  },
+  {
+    "end": 1647841386,
+    "incident_id": "2022-03-21-cloudbed1:1647841146:currencyservice",
+    "overlap_group": 32,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647840966
+  },
+  {
+    "end": 1647843141,
+    "incident_id": "2022-03-21-cloudbed1:1647842901:emailservice",
+    "overlap_group": 85,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647842721
+  },
+  {
+    "end": 1647843653,
+    "incident_id": "2022-03-21-cloudbed1:1647843413:emailservice",
+    "overlap_group": 116,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647843233
+  },
+  {
+    "end": 1647846759,
+    "incident_id": "2022-03-21-cloudbed1:1647846519:frontend2-0",
+    "overlap_group": 94,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647846339
+  },
+  {
+    "end": 1647847778,
+    "incident_id": "2022-03-21-cloudbed1:1647847538:emailservice-1",
+    "overlap_group": 89,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647847358
+  },
+  {
+    "end": 1647848971,
+    "incident_id": "2022-03-21-cloudbed1:1647848731:cartservice",
+    "overlap_group": 102,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-1-2022-03-21.csv",
+    "start": 1647848551
+  },
+  {
+    "end": 1647793339,
+    "incident_id": "2022-03-21-cloudbed2:1647793099:shippingservice-0",
+    "overlap_group": 12,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647792919
+  },
+  {
+    "end": 1647797883,
+    "incident_id": "2022-03-21-cloudbed2:1647797643:adservice-0",
+    "overlap_group": 30,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647797463
+  },
+  {
+    "end": 1647801375,
+    "incident_id": "2022-03-21-cloudbed2:1647801135:cartservice",
+    "overlap_group": 72,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647800955
+  },
+  {
+    "end": 1647806265,
+    "incident_id": "2022-03-21-cloudbed2:1647806025:recommendationservice-1",
+    "overlap_group": 112,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647805845
+  },
+  {
+    "end": 1647808667,
+    "incident_id": "2022-03-21-cloudbed2:1647808427:cartservice",
+    "overlap_group": 43,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647808247
+  },
+  {
+    "end": 1647811610,
+    "incident_id": "2022-03-21-cloudbed2:1647811370:productcatalogservice-0",
+    "overlap_group": 16,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647811190
+  },
+  {
+    "end": 1647816512,
+    "incident_id": "2022-03-21-cloudbed2:1647816272:recommendationservice-1",
+    "overlap_group": 104,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647816092
+  },
+  {
+    "end": 1647822112,
+    "incident_id": "2022-03-21-cloudbed2:1647821872:productcatalogservice",
+    "overlap_group": 28,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647821692
+  },
+  {
+    "end": 1647825121,
+    "incident_id": "2022-03-21-cloudbed2:1647824881:recommendationservice-1",
+    "overlap_group": 20,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647824701
+  },
+  {
+    "end": 1647830007,
+    "incident_id": "2022-03-21-cloudbed2:1647829767:frontend",
+    "overlap_group": 105,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647829587
+  },
+  {
+    "end": 1647831396,
+    "incident_id": "2022-03-21-cloudbed2:1647831156:adservice",
+    "overlap_group": 99,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647830976
+  },
+  {
+    "end": 1647840096,
+    "incident_id": "2022-03-21-cloudbed2:1647839856:shippingservice-2",
+    "overlap_group": 59,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647839676
+  },
+  {
+    "end": 1647841221,
+    "incident_id": "2022-03-21-cloudbed2:1647840981:recommendationservice-0",
+    "overlap_group": 71,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647840801
+  },
+  {
+    "end": 1647841993,
+    "incident_id": "2022-03-21-cloudbed2:1647841753:frontend-2",
+    "overlap_group": 84,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647841573
+  },
+  {
+    "end": 1647843828,
+    "incident_id": "2022-03-21-cloudbed2:1647843588:productcatalogservice-1",
+    "overlap_group": 15,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647843408
+  },
+  {
+    "end": 1647846181,
+    "incident_id": "2022-03-21-cloudbed2:1647845941:frontend",
+    "overlap_group": 33,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647845761
+  },
+  {
+    "end": 1647847425,
+    "incident_id": "2022-03-21-cloudbed2:1647847185:paymentservice",
+    "overlap_group": 17,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647847005
+  },
+  {
+    "end": 1647850329,
+    "incident_id": "2022-03-21-cloudbed2:1647850089:adservice-0",
+    "overlap_group": 39,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647849909
+  },
+  {
+    "end": 1647853428,
+    "incident_id": "2022-03-21-cloudbed2:1647853188:adservice-2",
+    "overlap_group": 6,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647853008
+  },
+  {
+    "end": 1647854888,
+    "incident_id": "2022-03-21-cloudbed2:1647854648:productcatalogservice-1",
+    "overlap_group": 29,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647854468
+  },
+  {
+    "end": 1647857522,
+    "incident_id": "2022-03-21-cloudbed2:1647857282:checkoutservice",
+    "overlap_group": 117,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647857102
+  },
+  {
+    "end": 1647858795,
+    "incident_id": "2022-03-21-cloudbed2:1647858555:adservice",
+    "overlap_group": 73,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647858375
+  },
+  {
+    "end": 1647861242,
+    "incident_id": "2022-03-21-cloudbed2:1647861002:shippingservice",
+    "overlap_group": 122,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647860822
+  },
+  {
+    "end": 1647862615,
+    "incident_id": "2022-03-21-cloudbed2:1647862375:paymentservice",
+    "overlap_group": 67,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647862195
+  },
+  {
+    "end": 1647864450,
+    "incident_id": "2022-03-21-cloudbed2:1647864210:checkoutservice-2",
+    "overlap_group": 119,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647864030
+  },
+  {
+    "end": 1647866661,
+    "incident_id": "2022-03-21-cloudbed2:1647866421:emailservice-0",
+    "overlap_group": 96,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647866241
+  },
+  {
+    "end": 1647877054,
+    "incident_id": "2022-03-21-cloudbed2:1647876814:checkoutservice2-0",
+    "overlap_group": 10,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-2-2022-03-21.csv",
+    "start": 1647876634
+  },
+  {
+    "end": 1647802407,
+    "incident_id": "2022-03-21-cloudbed3:1647802167:frontend",
+    "overlap_group": 113,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647801987
+  },
+  {
+    "end": 1647807589,
+    "incident_id": "2022-03-21-cloudbed3:1647807349:shippingservice",
+    "overlap_group": 42,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647807169
+  },
+  {
+    "end": 1647810606,
+    "incident_id": "2022-03-21-cloudbed3:1647810366:productcatalogservice-0",
+    "overlap_group": 18,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647810186
+  },
+  {
+    "end": 1647812213,
+    "incident_id": "2022-03-21-cloudbed3:1647811973:currencyservice",
+    "overlap_group": 74,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647811793
+  },
+  {
+    "end": 1647813938,
+    "incident_id": "2022-03-21-cloudbed3:1647813698:shippingservice2-0",
+    "overlap_group": 77,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647813518
+  },
+  {
+    "end": 1647817185,
+    "incident_id": "2022-03-21-cloudbed3:1647816945:currencyservice",
+    "overlap_group": 54,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647816765
+  },
+  {
+    "end": 1647817564,
+    "incident_id": "2022-03-21-cloudbed3:1647817324:productcatalogservice",
+    "overlap_group": 54,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647817144
+  },
+  {
+    "end": 1647818959,
+    "incident_id": "2022-03-21-cloudbed3:1647818719:frontend-1",
+    "overlap_group": 35,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647818539
+  },
+  {
+    "end": 1647820515,
+    "incident_id": "2022-03-21-cloudbed3:1647820275:cartservice",
+    "overlap_group": 23,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647820095
+  },
+  {
+    "end": 1647823556,
+    "incident_id": "2022-03-21-cloudbed3:1647823316:checkoutservice-1",
+    "overlap_group": 98,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647823136
+  },
+  {
+    "end": 1647829753,
+    "incident_id": "2022-03-21-cloudbed3:1647829513:cartservice",
+    "overlap_group": 81,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647829333
+  },
+  {
+    "end": 1647831691,
+    "incident_id": "2022-03-21-cloudbed3:1647831451:cartservice-0",
+    "overlap_group": 92,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647831271
+  },
+  {
+    "end": 1647833182,
+    "incident_id": "2022-03-21-cloudbed3:1647832942:cartservice2-0",
+    "overlap_group": 47,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647832762
+  },
+  {
+    "end": 1647840595,
+    "incident_id": "2022-03-21-cloudbed3:1647840355:shippingservice-1",
+    "overlap_group": 64,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647840175
+  },
+  {
+    "end": 1647842010,
+    "incident_id": "2022-03-21-cloudbed3:1647841770:emailservice",
+    "overlap_group": 111,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647841590
+  },
+  {
+    "end": 1647844668,
+    "incident_id": "2022-03-21-cloudbed3:1647844428:emailservice",
+    "overlap_group": 52,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647844248
+  },
+  {
+    "end": 1647857980,
+    "incident_id": "2022-03-21-cloudbed3:1647857740:checkoutservice",
+    "overlap_group": 106,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647857560
+  },
+  {
+    "end": 1647862151,
+    "incident_id": "2022-03-21-cloudbed3:1647861911:currencyservice",
+    "overlap_group": 37,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647861731
+  },
+  {
+    "end": 1647863596,
+    "incident_id": "2022-03-21-cloudbed3:1647863356:currencyservice-2",
+    "overlap_group": 118,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647863176
+  },
+  {
+    "end": 1647869869,
+    "incident_id": "2022-03-21-cloudbed3:1647869629:checkoutservice2-0",
+    "overlap_group": 101,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647869449
+  },
+  {
+    "end": 1647871021,
+    "incident_id": "2022-03-21-cloudbed3:1647870781:currencyservice-2",
+    "overlap_group": 79,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647870601
+  },
+  {
+    "end": 1647874018,
+    "incident_id": "2022-03-21-cloudbed3:1647873778:recommendationservice-2",
+    "overlap_group": 80,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-21.csv",
+    "start": 1647873598
+  },
+  {
+    "end": 1648065013,
+    "incident_id": "2022-03-24-cloudbed3:1648064773:productcatalogservice-1",
+    "overlap_group": 26,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648064593
+  },
+  {
+    "end": 1648073971,
+    "incident_id": "2022-03-24-cloudbed3:1648073731:adservice-0",
+    "overlap_group": 1,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648073551
+  },
+  {
+    "end": 1648076521,
+    "incident_id": "2022-03-24-cloudbed3:1648076281:emailservice-1",
+    "overlap_group": 40,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648076101
+  },
+  {
+    "end": 1648083264,
+    "incident_id": "2022-03-24-cloudbed3:1648083024:recommendationservice",
+    "overlap_group": 8,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648082844
+  },
+  {
+    "end": 1648085400,
+    "incident_id": "2022-03-24-cloudbed3:1648085160:emailservice",
+    "overlap_group": 55,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648084980
+  },
+  {
+    "end": 1648088229,
+    "incident_id": "2022-03-24-cloudbed3:1648087989:recommendationservice-1",
+    "overlap_group": 93,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648087809
+  },
+  {
+    "end": 1648091145,
+    "incident_id": "2022-03-24-cloudbed3:1648090905:adservice-1",
+    "overlap_group": 0,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648090725
+  },
+  {
+    "end": 1648093951,
+    "incident_id": "2022-03-24-cloudbed3:1648093711:recommendationservice",
+    "overlap_group": 109,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648093531
+  },
+  {
+    "end": 1648111523,
+    "incident_id": "2022-03-24-cloudbed3:1648111283:recommendationservice",
+    "overlap_group": 36,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648111103
+  },
+  {
+    "end": 1648114436,
+    "incident_id": "2022-03-24-cloudbed3:1648114196:frontend-2",
+    "overlap_group": 82,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648114016
+  },
+  {
+    "end": 1648115644,
+    "incident_id": "2022-03-24-cloudbed3:1648115404:productcatalogservice",
+    "overlap_group": 13,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648115224
+  },
+  {
+    "end": 1648118027,
+    "incident_id": "2022-03-24-cloudbed3:1648117787:recommendationservice-0",
+    "overlap_group": 63,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648117607
+  },
+  {
+    "end": 1648119130,
+    "incident_id": "2022-03-24-cloudbed3:1648118890:productcatalogservice-1",
+    "overlap_group": 88,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648118710
+  },
+  {
+    "end": 1648120894,
+    "incident_id": "2022-03-24-cloudbed3:1648120654:recommendationservice",
+    "overlap_group": 7,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648120474
+  },
+  {
+    "end": 1648121840,
+    "incident_id": "2022-03-24-cloudbed3:1648121600:cartservice",
+    "overlap_group": 97,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648121420
+  },
+  {
+    "end": 1648125022,
+    "incident_id": "2022-03-24-cloudbed3:1648124782:emailservice-1",
+    "overlap_group": 49,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648124602
+  },
+  {
+    "end": 1648128037,
+    "incident_id": "2022-03-24-cloudbed3:1648127797:adservice2-0",
+    "overlap_group": 114,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648127617
+  },
+  {
+    "end": 1648130500,
+    "incident_id": "2022-03-24-cloudbed3:1648130260:paymentservice-1",
+    "overlap_group": 91,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648130080
+  },
+  {
+    "end": 1648131998,
+    "incident_id": "2022-03-24-cloudbed3:1648131758:currencyservice-1",
+    "overlap_group": 110,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648131578
+  },
+  {
+    "end": 1648134177,
+    "incident_id": "2022-03-24-cloudbed3:1648133937:emailservice-1",
+    "overlap_group": 27,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648133757
+  },
+  {
+    "end": 1648135602,
+    "incident_id": "2022-03-24-cloudbed3:1648135362:checkoutservice",
+    "overlap_group": 95,
+    "source": "data/care/aiops2022-original/training_data_with_faults/training_data_with_faults/groundtruth/groundtruth-k8s-3-2022-03-24.csv",
+    "start": 1648135182
+  }
+]

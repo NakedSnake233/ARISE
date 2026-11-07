@@ -1,0 +1,19 @@
+{
+  "description": "Paper-sized reconstructed cohort, not a recovered original split",
+  "split_manifest": "configs/care/aiops2022-paper-split.json",
+  "data": "data/care/aiops2022-paper128-prepared",
+  "output": "artifacts/care/base-aiops2022-paper128",
+  "model_seeds": [42, 43, 44, 45, 46],
+  "primary_seed": 42,
+  "epochs": 50,
+  "checkpoint_selection": "final",
+  "learning_rate": 0.01,
+  "batch_size": 16,
+  "contrast_weight": 0.1,
+  "metric_patch_size": 3,
+  "metric_patch_stride": 1,
+  "device": "cpu",
+  "threads": 4,
+  "paper_specified": ["128 incidents", "incident-level 8:2 split", "8 attention heads", "learning rate 0.01", "supervised and metric-anchored contrastive losses", "overlapping metric patches", "training-only preprocessing and SDG", "self loops and symmetric runtime edges"],
+  "reconstruction_choices": ["cohort and split seed 42", "original 128 IDs unavailable", "102 train / 26 test after integer rounding", "50 fixed epochs and final checkpoint, without test-dependent selection", "batch size 16", "hidden size 64", "contrast weight 0.1", "temperature 0.07, residual margin 0, diversity weight 0.5", "3-bin metric patches with stride 1 and mean pooling", "180s baseline / 240s post-onset, 60s bins", "CPU training to avoid interfering with ongoing Qwen GPU evaluation", "five prespecified initialization seeds on the same fixed split"]
+}

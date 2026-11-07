@@ -1,0 +1,112 @@
+{
+  "scope": "Current working-tree source snapshot; no source repository Git history",
+  "changes": [
+    {
+      "file": "check_neo4j.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "check_propagation.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/preprocess/analyze_fault_propagation.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/preprocess/analyze_fault_propagation_aligned.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/preprocess/query_neo4j.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/preprocess/store_tt_edges_to_neo4j.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/preprocess/store_tt_fault_data_to_neo4j.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/rag_fault_diagnosis.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/rag_llama_factory.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "codes/run_rag.sh",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "codes/test_rag_model.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "configs/care/qwen3_lora.yaml",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "delete_numeric_suffix_services.py",
+      "change": "literal credential replaced by environment variable",
+      "count": 1
+    },
+    {
+      "file": "exp_revision/local_env_spec.json",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "exp_revision/preprocess_aiops.py",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "exp_revision/rcaeval_env_spec.json",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "exp_revision/remote_env_spec.json",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "exp_revision/remote_smoke.sh",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "monitor_rag.sh",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "run_finetune.sh",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "scripts/care/audit_aiops.py",
+      "change": "workstation identity replaced by portable example path"
+    },
+    {
+      "file": "scripts/care/prepare_aiops.py",
+      "change": "workstation identity replaced by portable example path"
+    }
+  ],
+  "excluded": [
+    "credentials and SSH material",
+    "local machine and agent configuration",
+    "logs and private runtime caches",
+    "model weights and experiment outputs",
+    "manuscript history and internal review records"
+  ],
+  "upstream_attribution": "Third-party project names, source links, and attribution are retained."
+}

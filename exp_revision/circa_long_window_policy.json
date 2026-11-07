@@ -1,0 +1,13 @@
+{
+  "protocol": "aiops_long_pre15_post4",
+  "before_seconds": 900,
+  "after_seconds": 240,
+  "step_seconds": 60,
+  "interval": "half-open",
+  "calibration": "first five fold-0 training IDs after complete expanded-group purging; S0 only; seed42; no labels or accuracy",
+  "fairness": "retain original test cohorts; purge complete expanded-overlap groups from each common training cohort; refit all preprocessing",
+  "algorithms": ["CIRCA", "CIRCA+rank-prune"],
+  "algorithm_parameters_changed": false,
+  "automatic_full_admission": false,
+  "selection_from_heldout_accuracy": false
+}

@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "python_syntax": "all 314 Python source files parsed",
+    "json_syntax": "all JSON files parsed",
+    "targeted_identity_and_credential_scan": "passed; no configured workstation identity, private IPs, private keys, credential tokens or literal password assignments found",
+    "offline_care_tests": {
+      "passed": 48,
+      "failed": 0
+    },
+    "offline_revision_tests": {
+      "passed": 36,
+      "failed": 0
+    }
+  },
+  "limitations": [
+    "Source snapshot only; data-dependent integration tests require omitted data/model artifacts.",
+    "An earlier integration test selection reported six missing-input failures (prepared incident data or cache directory); those inputs are not bundled.",
+    "Source sanitization changes byte hashes; historical source receipts are not validation for this release.",
+    "Anonymous mirror settings and synchronization have not been verified.",
+    "The backing GitHub repository visibility must be reviewed before publishing."
+  ]
+}

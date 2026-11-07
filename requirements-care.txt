@@ -1,0 +1,15 @@
+# Separate from the original Eadro requirements. Python 3.10 recommended.
+torch==2.6.0
+numpy==1.26.4
+scikit-learn==1.7.2
+pandas==2.3.3
+transformers==4.51.3
+peft==0.15.2
+accelerate==1.7.0
+datasets==3.6.0
+drain3==0.9.11
+PyYAML>=6,<7
+requests>=2.31,<3
+huggingface-hub==0.36.2
+pytest>=8,<10
+# Install fixed LLaMA-Factory v0.9.3 separately from external/LLaMA-Factory.

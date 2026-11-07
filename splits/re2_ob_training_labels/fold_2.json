@@ -1,0 +1,434 @@
+[
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_000",
+    "overlap_group": "re2_ob:overlap_006",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_001",
+    "overlap_group": "re2_ob:overlap_088",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_002",
+    "overlap_group": "re2_ob:overlap_050",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_003",
+    "overlap_group": "re2_ob:overlap_056",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_007",
+    "overlap_group": "re2_ob:overlap_085",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_009",
+    "overlap_group": "re2_ob:overlap_012",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_010",
+    "overlap_group": "re2_ob:overlap_059",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_011",
+    "overlap_group": "re2_ob:overlap_089",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_013",
+    "overlap_group": "re2_ob:overlap_051",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_014",
+    "overlap_group": "re2_ob:overlap_052",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_015",
+    "overlap_group": "re2_ob:overlap_053",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_016",
+    "overlap_group": "re2_ob:overlap_054",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_017",
+    "overlap_group": "re2_ob:overlap_055",
+    "root_service": "checkoutservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_018",
+    "overlap_group": "re2_ob:overlap_060",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_019",
+    "overlap_group": "re2_ob:overlap_061",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_020",
+    "overlap_group": "re2_ob:overlap_062",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_021",
+    "overlap_group": "re2_ob:overlap_068",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_022",
+    "overlap_group": "re2_ob:overlap_069",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_025",
+    "overlap_group": "re2_ob:overlap_064",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_026",
+    "overlap_group": "re2_ob:overlap_065",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_027",
+    "overlap_group": "re2_ob:overlap_014",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_028",
+    "overlap_group": "re2_ob:overlap_071",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_029",
+    "overlap_group": "re2_ob:overlap_072",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_030",
+    "overlap_group": "re2_ob:overlap_021",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_031",
+    "overlap_group": "re2_ob:overlap_083",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_033",
+    "overlap_group": "re2_ob:overlap_023",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_035",
+    "overlap_group": "re2_ob:overlap_067",
+    "root_service": "currencyservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_036",
+    "overlap_group": "re2_ob:overlap_004",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_037",
+    "overlap_group": "re2_ob:overlap_045",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_038",
+    "overlap_group": "re2_ob:overlap_046",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_040",
+    "overlap_group": "re2_ob:overlap_079",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_041",
+    "overlap_group": "re2_ob:overlap_080",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_042",
+    "overlap_group": "re2_ob:overlap_010",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_043",
+    "overlap_group": "re2_ob:overlap_049",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_044",
+    "overlap_group": "re2_ob:overlap_074",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_045",
+    "overlap_group": "re2_ob:overlap_005",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_046",
+    "overlap_group": "re2_ob:overlap_081",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_047",
+    "overlap_group": "re2_ob:overlap_082",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_048",
+    "overlap_group": "re2_ob:overlap_022",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_050",
+    "overlap_group": "re2_ob:overlap_048",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_052",
+    "overlap_group": "re2_ob:overlap_076",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_053",
+    "overlap_group": "re2_ob:overlap_077",
+    "root_service": "emailservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_054",
+    "overlap_group": "re2_ob:overlap_000",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_055",
+    "overlap_group": "re2_ob:overlap_024",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_056",
+    "overlap_group": "re2_ob:overlap_025",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_057",
+    "overlap_group": "re2_ob:overlap_016",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_058",
+    "overlap_group": "re2_ob:overlap_031",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_059",
+    "overlap_group": "re2_ob:overlap_032",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_060",
+    "overlap_group": "re2_ob:overlap_008",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_061",
+    "overlap_group": "re2_ob:overlap_028",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_062",
+    "overlap_group": "re2_ob:overlap_087",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_063",
+    "overlap_group": "re2_ob:overlap_001",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_064",
+    "overlap_group": "re2_ob:overlap_033",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_065",
+    "overlap_group": "re2_ob:overlap_073",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_066",
+    "overlap_group": "re2_ob:overlap_007",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_069",
+    "overlap_group": "re2_ob:overlap_015",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_070",
+    "overlap_group": "re2_ob:overlap_029",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_071",
+    "overlap_group": "re2_ob:overlap_030",
+    "root_service": "productcatalogservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_072",
+    "overlap_group": "re2_ob:overlap_002",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_073",
+    "overlap_group": "re2_ob:overlap_034",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "cpu",
+    "incident_id": "re2_ob:event_074",
+    "overlap_group": "re2_ob:overlap_035",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_075",
+    "overlap_group": "re2_ob:overlap_018",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_076",
+    "overlap_group": "re2_ob:overlap_042",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "delay",
+    "incident_id": "re2_ob:event_077",
+    "overlap_group": "re2_ob:overlap_043",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "disk",
+    "incident_id": "re2_ob:event_080",
+    "overlap_group": "re2_ob:overlap_039",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "loss",
+    "incident_id": "re2_ob:event_083",
+    "overlap_group": "re2_ob:overlap_084",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_084",
+    "overlap_group": "re2_ob:overlap_019",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_085",
+    "overlap_group": "re2_ob:overlap_036",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "mem",
+    "incident_id": "re2_ob:event_086",
+    "overlap_group": "re2_ob:overlap_037",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_087",
+    "overlap_group": "re2_ob:overlap_017",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_088",
+    "overlap_group": "re2_ob:overlap_040",
+    "root_service": "recommendationservice"
+  },
+  {
+    "fault_type": "socket",
+    "incident_id": "re2_ob:event_089",
+    "overlap_group": "re2_ob:overlap_041",
+    "root_service": "recommendationservice"
+  }
+]

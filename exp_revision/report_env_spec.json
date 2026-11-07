@@ -1,0 +1,16 @@
+{
+  "purpose": "ARISE statistical reports; no training dependency upgrades",
+  "python": "cache/exp_runtime/venv/bin/python",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.6.0",
+    "pandas": "2.2.3",
+    "pyarrow": "19.0.1",
+    "matplotlib": "3.10.1",
+    "statsmodels": "0.14.5",
+    "patsy": "1.0.1"
+  },
+  "report_only_install": "cache/exp_runtime/venv/bin/python -m pip install --no-deps statsmodels==0.14.5 patsy==1.0.1"
+}

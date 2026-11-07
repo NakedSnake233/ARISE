@@ -1,0 +1,20 @@
+{
+  "namespace": "care-tt",
+  "context": "care-tt",
+  "seed": 42,
+  "repetitions": 3,
+  "warmup_seconds": 60,
+  "fault_seconds": 120,
+  "cooldown_seconds": 60,
+  "users": 5,
+  "request_interval_seconds": 1.0,
+  "services": ["ts-travel-service", "ts-travel2-service", "ts-route-service", "ts-station-service", "ts-train-service", "ts-seat-service", "ts-ticketinfo-service", "ts-basic-service", "ts-price-service", "ts-order-service"],
+  "faults": ["cpu_load", "memory_ramp", "network_delay", "packet_loss", "disk_io_load"],
+  "parameters": {"cpu_load_percent": 80, "memory_size": "256MB", "network_delay": "200ms", "packet_loss_percent": "20", "disk_bytes": "128M"},
+  "notes": [
+    "This is a newly specified reproducible protocol; the paper does not supply original injection parameters.",
+    "Memory ramp emulates increasing memory pressure, not an application-code memory leak.",
+    "Disk workload is bounded scratch I/O, not disk exhaustion.",
+    "150 incidents at 240 seconds each require about 10 hours, excluding startup and recovery."
+  ]
+}
